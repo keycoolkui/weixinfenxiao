@@ -1,0 +1,797 @@
+2015-08-13 08:01:30 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439426501 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439426501 ;
+msgtype : text ;
+content : 微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 08:01:30 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 37 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 08:01:30 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 08:54:06 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439429657 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439429657 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 08:54:06 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 08:54:06 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 08:56:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439429790 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439429790 ;
+msgtype : text ;
+content : 代理 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 08:56:19 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 47 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 08:56:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 09:59:46 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439433597 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439433597 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 09:59:46 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-13 09:59:46 response :
+------------
+Array:
+params : Array ;
+
+2015-08-13 10:00:28 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439433639 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439433639 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:00:28 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:00:28 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:14:50 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439434502 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439434502 ;
+msgtype : text ;
+content : 微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:14:50 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 37 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:14:50 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:15:41 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439434552 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439434552 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:15:41 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:15:41 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:20:44 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439434855 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439434855 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:20:44 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:20:44 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:21:36 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439434907 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439434907 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:21:36 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:21:36 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:31:03 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439435474 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439435474 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:31:03 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:31:03 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:47:11 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439436443 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439436443 ;
+msgtype : text ;
+content : 微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:47:11 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 37 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:47:11 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 10:47:58 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439436489 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439436489 ;
+msgtype : text ;
+content : 微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:47:58 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:47:58 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-13 10:48:04 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439436495 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439436495 ;
+msgtype : text ;
+content : 微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 10:48:04 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 37 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 10:48:04 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 13:56:52 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439447824 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439447824 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 13:56:52 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-13 13:56:52 response :
+------------
+Array:
+params : Array ;
+
+2015-08-13 13:56:58 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439447830 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439447830 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 13:56:58 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 13:56:58 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:01:37 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439451709 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439451709 ;
+msgtype : text ;
+content : 排行榜 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:01:37 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 51 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:01:37 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:04:03 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439451856 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439451856 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:04:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:04:03 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-13 15:04:41 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439451893 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439451893 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:04:41 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 52 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:04:41 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:05:26 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439451938 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439451938 ;
+msgtype : text ;
+content : 代理 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:05:26 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 53 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:05:26 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:11:32 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439452305 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439452305 ;
+msgtype : text ;
+content : 代理 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:11:32 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 53 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:11:32 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:30:28 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439453441 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439453441 ;
+msgtype : text ;
+content : 积分 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:30:28 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 54 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:30:28 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:30:54 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439453467 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439453467 ;
+msgtype : text ;
+content : 代理 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:30:54 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 53 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:30:54 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-13 15:34:14 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439453667 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439453667 ;
+msgtype : text ;
+content : 积分 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-13 15:34:14 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 54 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-13 15:34:14 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

@@ -1,0 +1,99 @@
+{template 'common/header-base'}
+
+{if defined('IN_MESSAGE')}
+<div class="col-md-6" style="margin: 0 auto; float: none;padding-top:5%; width: 38%;">
+    <div class="panel panel-primarynew" style="border-top:0px;background-color:rgba(13, 112, 143, 0.89);color: #EBEBEB;">
+        <div class="panel-heading ui-draggable-handle">
+            {if is_array($msg)}
+            <h3 class="panel-title">MYSQL 错误：</h3>
+        </div>
+        <div class="panel-body">
+            <h3 style="color: #D6DBE2;text-shadow: 0px 1px 0 rgba(5, 5, 5, 0.6);">{php echo cutstr($msg['sql'], 300, 1);}</h3>
+            <p><b>{$msg['error'][0]} {$msg['error'][1]}：</b>{$msg['error'][2]}</p>
+        </div>
+        {else}
+        <h3 class="panel-title">{$caption}</h3>
+
+        <div class="panel-body">
+            <h3 style="color: #D6DBE2;text-shadow: 0px 1px 0 rgba(5, 5, 5, 0.6);">{$msg}</h3>
+
+            {/if}
+            {if $redirect}
+            <h4 ><a href="{$redirect}" class="alert-link" style="color: #D6DBE2;text-shadow: 0px 1px 0 rgba(5, 5, 5, 0.6);">如果你的浏览器没有自动跳转，请点击此链接</a></h4>
+            <script type="text/javascript">
+                setTimeout(function () {
+                    location.href = "{$redirect}";
+                }, 3000);
+            </script>
+
+            {else}
+            <h4>[<a href="javascript:history.go(-1);" class="alert-link"  style="color: #D6DBE2;text-shadow: 0px 1px 0 rgba(5, 5, 5, 0.6);">点击这里返回上一页</a>] &nbsp; [<a href="./?refresh" class="alert-link">首页</a>]</h4>
+            {/if}</div></div>
+    <div class="panel-footer">
+        <div class="contact-info" style="float: right;
+width: 36%;">
+            <p><small style="color: #247D99;">山东环球软件科技有限公司</small></p>
+
+        </div>
+    </div>
+</div>
+
+{/if}
+
+{if defined('IN_SOLUTION')}
+<ul class="x-navigation x-navigation-horizontal" >
+    {php global $solution,$solutions;}
+    {if $_W['role'] != 'operator'}
+    <li class="xn-openable"><a href="{url 'home/welcome/ext'}"><i class="fa fa-reply-all"></i> 返回公众号列表</a></li>
+    {/if}
+    {loop $solutions $row}
+    <li{if $row['name'] == $solution['name']} class="active xn-openable"{/if} ><a href="{url 'home/welcome/solution' array('m' => $row['name'])}"><i class="fa fa-cog"></i> {$row['title']}</a></li>
+    {/loop}
+</ul>
+
+    {else}
+    <div class="page-head">
+        {if !empty($_W['uniacid']) && !defined('IN_MESSAGE')}
+        <!-- START X-NAVIGATION VERTICAL -->
+
+        <div class="page-bar">
+            <h3 class="page-title" style="width: 300px;margin-left: 203px;
+margin-top: 12px;">{$_W['user']['username']}<small>   欢迎您</small></h3>
+            <div class="btn-toolbar btn-toolbar-demo" style="float: right;">
+                <div class="menu upgrade">
+                    <a href="{url 'user/logout'}" class="btn btn-turgu" data-box="#mb-signout"><i class="fontello-icon-logout-1"></i> 退出</a>
+                </div>
+
+                <div class="menu upgrade">
+                    <a href="https://mp.weixin.qq.com/" class="btn btn-yellow" target="_blank" ><i class="fontello-icon-chat-1"></i> 公众平台</a></div>
+
+                <div class="menu upgrade">
+                    <a href="javascript:;" class="btn btn-turgu">
+                        <i class="fontello-icon-user-4"></i> {$_W['user']['username']}</a>
+                </div>
+                <div class="menu upgrade">
+                    <a href="javascript:;" class="btn btn-yellow" ><i class="fontello-icon-chat-empty"></i> {$_W['account']['name']}</a>
+                </div>
+                <div class="menu upgrade">
+                    <a href="{url 'home/welcome/ext'}" class="btn btn-turgu" ><i class="fontello-icon-wrench-2"></i> 功能管理首页</a>
+                </div>
+                <!-- END SIGN OUT -->
+             </div></div> {/if}</div>{/if}
+
+    <div class="page-container page-navigation-top-fixed">
+
+    <script>
+	 
+	 $(document).ready(function(){
+	 $("#modname").load("{url 'home/welcome/ext'} #sidebarn") });  </script>   <!-- START X-NAVIGATION -->
+        <div id="modname">    </div>
+
+
+        <div class="page-content">
+
+            <div class="page-content-wrap" >
+
+                <div id="row" style="margin-top: 20px;">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-body">

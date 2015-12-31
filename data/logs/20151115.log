@@ -1,0 +1,66 @@
+2015-11-15 02:15:47 trace :
+------------
+Array:
+from : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+to : gh_a8a83d9305b8 ;
+time : 1447524945 ;
+type : event ;
+event : subscribe ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+createtime : 1447524945 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-11-15 02:15:47 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 57 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-15 02:15:47 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-11-15 02:45:13 trace :
+------------
+Array:
+from : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+to : gh_a8a83d9305b8 ;
+time : 1447526712 ;
+type : text ;
+event :  ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+createtime : 1447526712 ;
+msgtype : text ;
+content : /::) ;
+msgid : 6217079888526889239 ;
+redirection :  ;
+source :  ;
+
+2015-11-15 02:45:13 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-15 02:45:13 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwbF20aZr9zJAarMvo26iGqQ ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+

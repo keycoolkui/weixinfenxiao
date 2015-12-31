@@ -1,0 +1,44 @@
+<ul class="x-navigation" id="navdefault">
+				<li class="xn-logo">
+					<a href="index.html">WDLCMS.COM</a>
+					<a href="#" class="x-navigation-control"></a>
+				</li>
+
+				<li class="xn-profile">
+					<div class="profile">
+
+						<div class="profile-image">
+							<img src="{$_W['attachurl']}headimg_{$_W['uniacid']}.jpg?$acid={$_W['uniacid']}" class="" onerror="this.src='resource/wdlcms/assets/images/users/568.jpg'" />
+						</div>
+						<div class="profile-data">
+							<div class="profile-data-name">{$_W['user']['username']}</div>
+							<div class="profile-data-title">WDLCMS欢迎您回来!</div>
+						</div>
+
+					</div>
+				</li>
+				{php $frames = empty($frames) ? $GLOBALS['frames'] : $frames; _calc_current_frames($frames);}
+				{if !empty($frames)}
+			{loop $frames $k $frame}
+			<li class="xn-openable active">
+				<div class="panel-heading">
+					<h4 class="panel-title"><a data-toggle="collapse" href="#frame-{$k}">{$frame['title']}</a></h4>
+				</div>
+				<ul id="frame-{$k}">
+					<li>
+					{loop $frame['items'] $link}
+					{if !empty($link['append'])}
+					<a class="list-group-item1{$link['active']}" onclick="window.location.href = '{$link['url']}';" style="cursor:pointer;">
+						{$link['title']}
+
+					</a>
+					{else}
+
+
+					<a class="list-group-item1{$link['active']}" href="{$link['url']}" >{$link['title']}</a>
+					{/if}
+					{/loop}</li>{/if}
+				</ul>
+
+			</li>
+			{/loop}</ul>

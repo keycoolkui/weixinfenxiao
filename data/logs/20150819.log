@@ -1,0 +1,105 @@
+2015-08-19 08:02:02 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439944961 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439944961 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-19 08:02:03 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 46 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-19 08:02:03 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-19 08:25:45 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439946384 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439946384 ;
+msgtype : text ;
+content : 农圣优鲜 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-19 08:25:46 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 56 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-19 08:25:46 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-19 09:16:08 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1439949407 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1439949407 ;
+msgtype : text ;
+content : 农圣优鲜 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-19 09:16:08 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 56 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-19 09:16:08 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

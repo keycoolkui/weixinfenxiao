@@ -1,0 +1,54 @@
+{template 'common/header'}
+{php echo $this -> set_tabbar($action, $storeid);}
+<style>
+    .item_box img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<script type="text/javascript">
+    $(function(){
+        $(':radio[name="email_enable"]').click(function(){
+            if(this.checked) {
+                if($(this).val() == '1') {
+                    $('.email').show();
+                } else {
+                    $('.email').hide();
+                }
+            }
+        });
+    });
+</script>
+<div class="main">
+	<form action="" method="post" class="form-horizontal form" enctype="multipart/form-data">
+	<input type="hidden" name="id" value="{$setting['id']}" />
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                邮件设置
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">邮箱提醒</label>
+                    <div class="col-sm-9">
+                        <label for="email_enable" class="radio-inline"><input type="radio" name="email_enable" value="1" id="email_enable" {if $setting['email_enable']==1}checked{/if} /> 是</label>
+                        &nbsp;&nbsp;&nbsp;
+                        <label for="email_enable2" class="radio-inline"><input type="radio" name="email_enable" value="0" id="email_enable2"  {if $setting['email_enable']==0 || empty($setting)}checked{/if} /> 否</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">提醒接收邮箱</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="email" class="form-control" value="{$setting['email']}" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group col-sm-12">
+            <input name="submit" type="submit" value="提交" class="btn btn-primary span3">
+            <input type="hidden" name="id" value="{$setting['id']}" />
+            <input type="hidden" name="token" value="{$_W['token']}" />
+        </div>
+	</form>
+</div>
+{template 'common/footer'}

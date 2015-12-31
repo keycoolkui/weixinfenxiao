@@ -1,0 +1,884 @@
+2015-07-22 07:54:04 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525138 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525138 ;
+msgtype : text ;
+content : 文章 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 07:54:04 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 14 ;
+priority : 1 ;
+keyword : Array ;
+
+2015-07-22 07:54:04 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 07:54:50 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525184 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525184 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 07:54:50 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2015-07-22 07:54:50 response :
+------------
+
+2015-07-22 07:54:57 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525192 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525192 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 07:54:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2015-07-22 07:54:58 response :
+------------
+
+2015-07-22 07:57:11 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525325 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525325 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 07:57:11 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 07:57:11 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 08:02:24 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525638 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525638 ;
+msgtype : text ;
+content : 你好 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 08:02:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 08:02:24 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 你好,这里是检测中心 ;
+
+2015-07-22 08:02:35 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525649 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525649 ;
+msgtype : text ;
+content : 帮助 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 08:02:35 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-07-22 08:02:35 response :
+------------
+Array:
+params : Array ;
+
+2015-07-22 08:02:43 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525657 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525657 ;
+msgtype : text ;
+content : ?? ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 08:02:43 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-07-22 08:02:43 response :
+------------
+Array:
+params : Array ;
+
+2015-07-22 08:02:59 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525673 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525673 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 08:02:59 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 08:02:59 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 08:03:20 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437525694 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437525694 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 08:03:20 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 15 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 08:03:20 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 14:33:08 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437549085 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437549085 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 14:33:08 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 14:33:08 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 15:23:06 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437552083 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437552083 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 15:23:06 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:23:06 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 15:26:01 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437552258 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437552258 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 15:26:01 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:26:01 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 15:34:39 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437552777 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437552777 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 15:34:39 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:34:39 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 15:52:25 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437553843 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437553843 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 15:52:25 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:52:25 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 15:52:33 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437553851 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437553851 ;
+msgtype : text ;
+content : 欢迎关注 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 15:52:33 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:52:33 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 15:52:39 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437553856 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437553856 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 15:52:39 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:52:39 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 15:54:55 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437553992 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437553992 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 15:54:55 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:54:55 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 15:56:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554076 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554076 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 15:56:19 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 15:56:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 16:11:10 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554967 ;
+type : location ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554967 ;
+msgtype : location ;
+location_x : 23.134521 ;
+location_y : 113.358803 ;
+scale : 20 ;
+label : 位置信息 ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:11:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:11:10 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 16:11:15 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554973 ;
+type : link ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554973 ;
+msgtype : link ;
+title : 测试链接 ;
+description : 测试链接描述 ;
+url : http://baidu.com ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:11:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:11:15 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 16:11:18 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554975 ;
+type : event ;
+event : CLICK ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554975 ;
+msgtype : event ;
+eventkey : EVENTKEY ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:11:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:11:18 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 16:11:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554977 ;
+type : event ;
+event : CLICK ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554977 ;
+msgtype : event ;
+eventkey : EVENTKEY ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:11:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:11:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 16:11:22 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437554980 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437554980 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:11:22 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:11:22 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 16:15:05 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437555203 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437555203 ;
+msgtype : text ;
+content : 你好 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 16:15:05 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 12 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:15:05 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 你好,这里是检测中心 ;
+
+2015-07-22 16:15:16 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437555213 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437555213 ;
+msgtype : text ;
+content : 帮助 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 16:15:16 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:15:16 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-22 16:21:56 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437555614 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437555614 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-22 16:21:56 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:21:56 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-22 16:22:43 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437555660 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437555660 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-22 16:22:43 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-22 16:22:43 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

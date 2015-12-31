@@ -1,0 +1,371 @@
+2015-10-22 08:06:30 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445472390 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445472390 ;
+msgtype : text ;
+content : 农圣优鲜商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 08:06:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 08:06:30 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 08:06:35 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445472395 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445472395 ;
+msgtype : text ;
+content : 农圣优鲜微商城 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 08:06:35 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 51 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 08:06:35 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-10-22 09:50:29 trace :
+------------
+Array:
+from : oFF8fwb08bK1vBfGxlK4SPJyezmc ;
+to : gh_a8a83d9305b8 ;
+time : 1445478629 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwb08bK1vBfGxlK4SPJyezmc ;
+createtime : 1445478629 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-10-22 09:50:29 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 09:50:29 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwb08bK1vBfGxlK4SPJyezmc ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 10:40:31 trace :
+------------
+Array:
+from : oFF8fwcDOWR02bL9KWj78n6eYm30 ;
+to : gh_a8a83d9305b8 ;
+time : 1445481631 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwcDOWR02bL9KWj78n6eYm30 ;
+createtime : 1445481631 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-10-22 10:40:31 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 10:40:31 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwcDOWR02bL9KWj78n6eYm30 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:22:10 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484130 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484130 ;
+msgtype : text ;
+content : 分销 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:22:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:22:10 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:22:16 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484136 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484136 ;
+msgtype : text ;
+content : 分销系统 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:22:16 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:22:16 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:22:18 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484138 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484138 ;
+msgtype : text ;
+content : 分销系统 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:22:18 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:22:18 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:22:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484138 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484138 ;
+msgtype : text ;
+content : 分销系统 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:22:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:22:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:22:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484139 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484139 ;
+msgtype : text ;
+content : 分销系统 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:22:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:22:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-10-22 11:25:07 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484307 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484307 ;
+msgtype : text ;
+content : 代理 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:25:07 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 52 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:25:07 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-10-22 11:25:21 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1445484321 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1445484321 ;
+msgtype : text ;
+content : 排行榜 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-10-22 11:25:21 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 53 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-10-22 11:25:21 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

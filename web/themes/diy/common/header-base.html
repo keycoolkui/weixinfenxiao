@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn" >
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{php if(isset($title)) $_W['page']['title'] = $title}{if !empty($_W['page']['title'])}{$_W['page']['title']} - {/if}{if empty($_W['page']['copyright']['sitename'])}{if IMS_FAMILY != 'x'}环球微信平台 - 公众平台自助引擎 -  Powered by wdlcms.com{/if}{else}{$_W['page']['copyright']['sitename']}{/if}</title>
+	<meta name="keywords" content="{if empty($_W['page']['copyright']['keywords'])}{if IMS_FAMILY != 'x'}环球微信平台,微信,微信公众平台,wdlcms.com{/if}{else}{$_W['page']['copyright']['keywords']}{/if}" />
+	<meta name="description" content="{if empty($_W['page']['copyright']['description'])}{if IMS_FAMILY != 'x'}公众平台自助引擎（www.wdlcms.com），环球微信平台是一款免费开源的微信公众平台管理系统，是国内最完善移动网站及移动互联网技术解决方案。{/if}{else}{$_W['page']['copyright']['description']}{/if}" />
+	<link rel="shortcut icon" href="{$_W['siteroot']}{$_W['config']['upload']['attachdir']}/{if !empty($_W['setting']['copyright']['icon'])}{$_W['setting']['copyright']['icon']}{else}images/global/wechat.jpg{/if}" />
+
+
+    <link rel="stylesheet" type="text/css" id="theme" href="./resource/wdlcms/css/theme-default.css"/>
+	<link rel="stylesheet" type="text/css" id="theme" href="./resource/wdlcms/css/newfont.css"/>
+	<script src="./resource/js/require.js"></script>
+	<script src="./resource/js/app/config.js"></script>
+	<script src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+	<script src="./resource/wdlcms/js/scrolltopcontrol.js"></script>
+		<script src="./resource/wdlcms/js/jquery.nicescroll.js"></script>
+	<!--[if lt IE 9]>
+		<script src="./resource/js/html5shiv.min.js"></script>
+		<script src="./resource/js/respond.min.js"></script>
+	<![endif]-->
+<script>
+$(document).ready(
+function() {
+$("#sidebarn").niceScroll({cursorcolor:"rgb(201, 16, 50)"});
+}
+);
+
+</script>
+</head>
+<body>

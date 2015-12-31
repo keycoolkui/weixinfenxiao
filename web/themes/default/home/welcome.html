@@ -1,0 +1,26 @@
+
+<div class="clearfix welcome-container">
+	{if $do == 'platform'}
+	{template 'home/welcome-platform'}
+	{/if}
+	{if $do == 'site'}
+	{template 'home/welcome-site'}
+	{/if}
+	{if $do == 'mc'}
+	{template 'home/welcome-mc'}
+	{/if}
+	{if $do == 'setting'}
+	{template 'home/welcome-setting'}
+	{/if}
+	{if $do == 'extt'}
+	{template 'home/welcome-extt'}
+	{/if}
+	{if $do == 'ext'}
+	{template 'home/welcome-ext'}
+	{/if}
+	{if $do == 'solution'}
+	{template 'home/welcome-solution'}
+	{/if}
+</div></div>
+
+{template 'common/footer-gw'}

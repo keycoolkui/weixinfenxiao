@@ -1,0 +1,343 @@
+2015-11-14 10:37:32 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447468651 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447468651 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=318 ;
+
+2015-11-14 10:37:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:37:32 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 10:39:56 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447468795 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447468795 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 10:39:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:39:56 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 10:54:47 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447469686 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447469686 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 10:54:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:54:47 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 10:54:54 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447469694 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447469694 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 10:54:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:54:54 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 10:55:07 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447469707 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447469707 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 10:55:07 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:55:07 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 10:55:10 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447469709 ;
+type : event ;
+event : CLICK ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447469709 ;
+msgtype : event ;
+eventkey : 刮刮乐 ;
+
+2015-11-14 10:55:10 params :
+------------
+Array:
+message : Array ;
+module : hx_cards ;
+rule : 55 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:55:10 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-11-14 10:55:39 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447469739 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447469739 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=319 ;
+
+2015-11-14 10:55:39 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 10:55:39 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 11:06:28 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447470388 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447470388 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 11:06:28 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 11:06:28 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 11:07:35 trace :
+------------
+Array:
+from : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+to : gh_a8a83d9305b8 ;
+time : 1447470455 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+createtime : 1447470455 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 11:07:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 11:07:35 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fweoVTn-K638Gj9oYEKq_648 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-11-14 21:46:47 trace :
+------------
+Array:
+from : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+to : gh_a8a83d9305b8 ;
+time : 1447508805 ;
+type : event ;
+event : subscribe ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+createtime : 1447508805 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-11-14 21:46:47 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 57 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 21:46:47 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-11-14 21:46:48 trace :
+------------
+Array:
+from : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+to : gh_a8a83d9305b8 ;
+time : 1447508808 ;
+type : event ;
+event : VIEW ;
+tousername : gh_a8a83d9305b8 ;
+fromusername : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+createtime : 1447508808 ;
+msgtype : event ;
+eventkey : http://wx.nsyouxian.com/app/index.php?i=5&c=entry&eid=317 ;
+
+2015-11-14 21:46:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-11-14 21:46:48 response :
+------------
+Array:
+FromUserName : gh_a8a83d9305b8 ;
+ToUserName : oFF8fwckE9jOovpuvp5b_OcLDZv0 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+

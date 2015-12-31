@@ -1,0 +1,495 @@
+2015-07-23 07:26:10 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437609871 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437609871 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 07:26:10 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 07:26:10 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 07:38:19 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437610600 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437610600 ;
+msgtype : text ;
+content : 那你呢 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 07:38:19 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 07:38:19 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 08:19:42 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437613080 ;
+type : event ;
+event : subscribe ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437613080 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-07-23 08:19:42 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 08:19:42 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 08:24:21 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437613362 ;
+type : event ;
+event : subscribe ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437613362 ;
+msgtype : event ;
+eventkey :  ;
+msgid : 1234567890123456 ;
+
+2015-07-23 08:24:21 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 08:24:21 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 10:55:38 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437622440 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437622440 ;
+msgtype : text ;
+content : 微网站 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 10:55:38 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:55:38 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 10:55:43 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437622445 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437622445 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 10:55:43 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:55:43 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 10:56:37 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437622490 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437622490 ;
+msgtype : event ;
+eventkey : http://www.qwyuan.com/app/index.php?i=4&c=home& ;
+
+2015-07-23 10:56:37 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:56:37 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 10:57:32 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437622551 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437622551 ;
+msgtype : event ;
+eventkey : http://172.19.3.105:82/app/index.php?i=3&c=home& ;
+
+2015-07-23 10:57:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:57:32 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 10:57:48 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437622567 ;
+type : text ;
+event :  ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437622567 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 6174541909463898992 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 10:57:48 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:57:48 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 10:59:16 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437622654 ;
+type : event ;
+event : subscribe ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437622654 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-07-23 10:59:16 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 10:59:16 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 16:01:01 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437640764 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437640764 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 16:01:01 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 16:01:01 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-07-23 16:01:21 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437640780 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437640780 ;
+msgtype : event ;
+eventkey : http://www.qwyuan.com/app/index.php?i=4&c=home& ;
+
+2015-07-23 16:01:21 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 16:01:21 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 16:03:00 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437640880 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437640880 ;
+msgtype : event ;
+eventkey : http://www.qwyuan.com/app/index.php?i=4&c=home& ;
+
+2015-07-23 16:03:00 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 16:03:00 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 16:03:56 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1437640936 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1437640936 ;
+msgtype : event ;
+eventkey : http://www.qwyuan.com/app/index.php?i=4&c=home& ;
+
+2015-07-23 16:03:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 16:03:56 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 功能维护中,请稍后再试 ;
+
+2015-07-23 16:04:12 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1437640955 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1437640955 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-07-23 16:04:12 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-07-23 16:04:12 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

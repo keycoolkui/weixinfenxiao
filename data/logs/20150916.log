@@ -1,0 +1,136 @@
+2015-09-16 15:59:52 trace :
+------------
+Array:
+from : oYMr5t_RHQXU9FqqaI_Ko6fgEZ58 ;
+to : gh_bbcd76ee3161 ;
+time : 1442390391 ;
+type : event ;
+event : MASSSENDJOBFINISH ;
+tousername : gh_bbcd76ee3161 ;
+fromusername : oYMr5t_RHQXU9FqqaI_Ko6fgEZ58 ;
+createtime : 1442390391 ;
+msgtype : event ;
+msgid : 218466312 ;
+status : send success ;
+totalcount : 360 ;
+filtercount : 360 ;
+sentcount : 360 ;
+errorcount : 0 ;
+
+2015-09-16 15:59:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-09-16 15:59:52 response :
+------------
+Array:
+FromUserName : gh_bbcd76ee3161 ;
+ToUserName : oYMr5t_RHQXU9FqqaI_Ko6fgEZ58 ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-09-16 16:57:30 trace :
+------------
+Array:
+from : oYMr5t0XfwJu4tW8QpsvgKhtN-Ss ;
+to : gh_bbcd76ee3161 ;
+time : 1442393849 ;
+type : event ;
+event : subscribe ;
+tousername : gh_bbcd76ee3161 ;
+fromusername : oYMr5t0XfwJu4tW8QpsvgKhtN-Ss ;
+createtime : 1442393849 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-09-16 16:57:30 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 57 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-09-16 16:57:30 response :
+------------
+Array:
+FromUserName : gh_bbcd76ee3161 ;
+ToUserName : oYMr5t0XfwJu4tW8QpsvgKhtN-Ss ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-09-16 17:19:42 trace :
+------------
+Array:
+from : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+to : gh_bbcd76ee3161 ;
+time : 1442395181 ;
+type : text ;
+event :  ;
+tousername : gh_bbcd76ee3161 ;
+fromusername : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+createtime : 1442395181 ;
+msgtype : text ;
+content : 葡萄还有吗？ ;
+msgid : 6195040130521467998 ;
+redirection :  ;
+source :  ;
+
+2015-09-16 17:19:42 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-09-16 17:19:42 response :
+------------
+Array:
+FromUserName : gh_bbcd76ee3161 ;
+ToUserName : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+
+2015-09-16 17:20:52 trace :
+------------
+Array:
+from : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+to : gh_bbcd76ee3161 ;
+time : 1442395251 ;
+type : text ;
+event :  ;
+tousername : gh_bbcd76ee3161 ;
+fromusername : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+createtime : 1442395251 ;
+msgtype : text ;
+content : 想要葡萄，今天送还是明天？ ;
+msgid : 6195040431169178737 ;
+redirection :  ;
+source :  ;
+
+2015-09-16 17:20:52 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-09-16 17:20:52 response :
+------------
+Array:
+FromUserName : gh_bbcd76ee3161 ;
+ToUserName : oYMr5tzsQa-C93euIGvKMUaYOMyU ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+

@@ -1,0 +1,34 @@
+2015-08-29 13:27:12 trace :
+------------
+Array:
+from : oYMr5t465jnhTcuVfkYvjJoaZx4A ;
+to : gh_bbcd76ee3161 ;
+time : 1440826031 ;
+type : text ;
+event :  ;
+tousername : gh_bbcd76ee3161 ;
+fromusername : oYMr5t465jnhTcuVfkYvjJoaZx4A ;
+createtime : 1440826031 ;
+msgtype : text ;
+content : 求转发：我家老妈今年65岁，身体活动不太方便，老人种了200棵葡萄熟了，无化肥农药，露天种植，口感绝对好吃，求采摘，免费代做葡萄酒，电话15953621212 ;
+msgid : 6188300682588675449 ;
+redirection :  ;
+source :  ;
+
+2015-08-29 13:27:12 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-29 13:27:12 response :
+------------
+Array:
+FromUserName : gh_bbcd76ee3161 ;
+ToUserName : oYMr5t465jnhTcuVfkYvjJoaZx4A ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+

@@ -1,0 +1,34 @@
+2015-12-27 16:42:40 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1451205760 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1451205760 ;
+msgtype : text ;
+content : 测试内容 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-12-27 16:42:40 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 58 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-12-27 16:42:40 response :
+------------
+Array:
+FromUserName : toUser ;
+ToUserName : fromUser ;
+MsgType : text ;
+Content : 您好,欢迎关注农圣优鲜微信公众号,如需帮助请咨询客服。 ;
+

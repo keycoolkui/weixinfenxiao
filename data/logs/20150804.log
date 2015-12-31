@@ -1,0 +1,1289 @@
+2015-08-04 07:20:14 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646368 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646368 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:20:14 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:20:14 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:20:41 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646397 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646397 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:20:41 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:20:41 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:21:30 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646446 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646446 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:21:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:21:30 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:23:09 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646545 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646545 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:23:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:23:10 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:24:55 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646651 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646651 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:24:55 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:24:55 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:25:13 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438646669 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438646669 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:25:13 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:25:13 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:28:50 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438646885 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438646885 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:28:50 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:28:50 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:33:21 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438647157 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438647157 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=6&i=3 ;
+
+2015-08-04 07:33:21 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:33:21 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:33:45 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438647181 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438647181 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:33:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:33:45 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:37:26 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438647402 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438647402 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:37:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:37:27 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:43:03 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438647739 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438647739 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=14&i=3 ;
+
+2015-08-04 07:43:03 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:43:03 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:44:51 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438647847 ;
+type : event ;
+event : subscribe ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438647847 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-08-04 07:44:51 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:44:51 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-04 07:45:30 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438647886 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438647886 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:45:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:45:30 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:45:52 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438647917 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438647917 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:45:52 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:45:52 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:45:57 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438647913 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438647913 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:45:57 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:45:57 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:46:04 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438647930 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438647930 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:46:04 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:46:04 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:46:27 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438647952 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438647952 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:46:27 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:46:27 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:46:41 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438647967 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438647967 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:46:42 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:46:42 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:46:54 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438647970 ;
+type : text ;
+event :  ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438647970 ;
+msgtype : text ;
+content : wei'guan'w ;
+msgid : 6178945981814293330 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:46:54 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:46:54 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:47:01 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438647977 ;
+type : text ;
+event :  ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438647977 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 6178946011879064411 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:47:01 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 17 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:47:01 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-04 07:47:55 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438648041 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438648041 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:47:55 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:47:55 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:49:56 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438648161 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438648161 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:49:56 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:49:56 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 07:51:24 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648240 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648240 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=2&i=3 ;
+
+2015-08-04 07:51:24 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:51:24 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:51:35 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648251 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648251 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=3&i=3 ;
+
+2015-08-04 07:51:35 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:51:35 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:51:48 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648265 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648265 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=6&i=3 ;
+
+2015-08-04 07:51:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:51:48 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:51:59 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648275 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648275 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=7&i=3 ;
+
+2015-08-04 07:51:59 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:51:59 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:52:48 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648324 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648324 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 07:52:48 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:52:48 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:53:25 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648361 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648361 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 07:53:25 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:53:25 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:55:56 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648512 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648512 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 07:55:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 07:55:56 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 07:57:36 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1438648622 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1438648622 ;
+msgtype : text ;
+content : 微官网 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2015-08-04 07:57:36 params :
+------------
+Array:
+message : Array ;
+module : default ;
+rule : -1 ;
+
+2015-08-04 07:57:36 response :
+------------
+Array:
+params : Array ;
+
+2015-08-04 08:00:23 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648779 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648779 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 08:00:23 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:00:23 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:02:12 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648888 ;
+type : event ;
+event : subscribe ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648888 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-08-04 08:02:12 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:02:12 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-04 08:02:19 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648896 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648896 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=14&i=3 ;
+
+2015-08-04 08:02:20 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:02:20 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:02:32 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438648908 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438648908 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 08:02:32 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:02:32 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:02:46 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438648922 ;
+type : event ;
+event : subscribe ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438648922 ;
+msgtype : event ;
+eventkey :  ;
+
+2015-08-04 08:02:46 params :
+------------
+Array:
+message : Array ;
+module : news ;
+rule : 16 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:02:46 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2015-08-04 08:03:10 trace :
+------------
+Array:
+from : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+to : gh_1f447c99463e ;
+time : 1438648946 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+createtime : 1438648946 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 08:03:10 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:03:10 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuI7k7UB28PPUMXn6avnYxu4 ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:06:45 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438649156 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438649156 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 08:06:45 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:06:45 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:06:56 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438649172 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438649172 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=1&i=3 ;
+
+2015-08-04 08:06:56 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:06:56 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
+2015-08-04 08:07:17 trace :
+------------
+Array:
+from : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+to : gh_1f447c99463e ;
+time : 1438649193 ;
+type : event ;
+event : VIEW ;
+tousername : gh_1f447c99463e ;
+fromusername : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+createtime : 1438649193 ;
+msgtype : event ;
+eventkey : http://univalsoftfwj.oicp.net/index.php?c=site&a=site&cid=13&i=3 ;
+
+2015-08-04 08:07:17 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2015-08-04 08:07:17 response :
+------------
+Array:
+FromUserName : gh_1f447c99463e ;
+ToUserName : owAWYuLrhMC-SWAmzZWO2gEwuZWw ;
+MsgType : text ;
+Content : 欢迎关注寿光市检测检验中心!输入"微官网"可进入寿光市检测检验中心微官网.
+地址:
+电话:
+邮箱: ;
+
