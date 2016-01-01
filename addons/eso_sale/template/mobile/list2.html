@@ -1,4 +1,3 @@
-<!--搜索页-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -213,7 +212,7 @@ function d(id){
 </script>
 </body>
 <?php
-    require_once IA_ROOT."/jssdk.class.php";
+    require_once MODULE_ROOT."/jssdk.class.php";
     $appid = $this->module['config']['appid'];
     $secret = $this->module['config']['secret'];
     $weixin = new jssdk($appid,$secret);
