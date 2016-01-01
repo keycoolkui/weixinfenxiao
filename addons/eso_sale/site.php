@@ -1572,7 +1572,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		if($op=='display'){
 			$pindex = max(1, intval($_GPC['page']));
 			$psize = 20;
-			$list = pdo_fetchall("select sale.*,mc_members.credit1 from ".tablename('eso_sale_member'). " sale left join ".tablename('mc_members'). " mc_members on sale.uid=mc_members.uid where sale.flag = 1 and sale.uniacid = ".$_W['uniacid']." ORDER BY sale.id DESC limit ".($pindex - 1) * $psize . ',' . $psize);
+			$list = pdo_fetchall("select sale.*,mc_members.credit1,mc_members.avatar from ".tablename('eso_sale_member'). " sale left join ".tablename('mc_members'). " mc_members on sale.uid=mc_members.uid where sale.flag = 1 and sale.uniacid = ".$_W['uniacid']." ORDER BY sale.id DESC limit ".($pindex - 1) * $psize . ',' . $psize);
 			$total = pdo_fetchcolumn("select count(id) from". tablename('eso_sale_member'). "where flag = 1 and uniacid =".$_W['uniacid']);;
 			$pager = pagination1($total, $pindex, $psize);
 

@@ -52,7 +52,7 @@
                 <div class="sub-content">
                     <table class="table table-hover">
                         <thead class="navbar-inner">
-                        <tr>
+                        <tr><th class="row-hover">用户类型</th>
                             <th class="row-hover">真实姓名</th>
                             <th class="row-hover">手机号码</th>
                             <th class="row-hover">注册时间</th>
@@ -66,6 +66,7 @@
                         <tbody>
                         <?php  if(is_array($list)) { foreach($list as $v) { ?>
                         <tr>
+                            <td><?php  if($v['agent']==0 ) { ?>业务员 <?php  } else if($v['agent'] == 1) { ?>医生<?php  } else { ?>普通用户<?php  } ?></td>
                             <td>
                                 <?php  echo $v['realname'];?>
                             </td>
