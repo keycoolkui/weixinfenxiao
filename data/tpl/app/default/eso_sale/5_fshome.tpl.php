@@ -179,7 +179,7 @@
 		</li>
 	</div>
 	<div id="ziliao">
-		<a href="<?php  echo $this->mturl('register', array('id'=>$profile['id'], 'opp'=>'complate'))?>"><div class="gengai" align="center">完善资料</div></a>
+		<a href="<?php  echo $this->mturl('register', array('id'=>$profile['id'], 'opp'=>'complate', agent=>$profile['agent'], mid=>$profile['shareid']))?>"><div class="gengai" align="center">完善资料</div></a>
 		<a href="<?php  echo $this->mturl('list',array('mid'=>$id))?>"><div class="gengai" align="center">返回商城</div></a>
 	</div>
 

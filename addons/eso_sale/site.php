@@ -1139,17 +1139,17 @@ class Eso_SaleModuleSite extends WeModuleSite {
         // echo $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));exit();
 
 		$share = "eso_saleshareQrcode".$_W['uniacid'];
-		if($_COOKIE[$share] != $_W['uniacid']."share".$id){
+		//if($_COOKIE[$share] != $_W['uniacid']."share".$id){
 			include "mobile/phpqrcode.php";//引入PHP QR库文件
 			// $value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
-			$value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>1));
+			$value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>1, 'mid'=>$id));
 			$errorCorrectionLevel = "L";
 			$matrixPointSize = "4";
 			$imgname = "share$id.png";
 			$imgurl = "../addons/eso_sale/style/images/share/$imgname";
 			QRcode::png($value, $imgurl, $errorCorrectionLevel, $matrixPointSize);
 			setCookie($share, $_W['uniacid']."share".$id, time()+3600*24);
-		}
+		//}
 
 		$commtime = pdo_fetch("select commtime, promotertimes from ".tablename('eso_sale_rules')." where uniacid = ".$_W['uniacid']);
 		$commissioningpe = 0;
@@ -1180,6 +1180,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$uniacid=$_W['uniacid'];
 		$op = $_GPC['op']?$_GPC['op']:'display';
 		$agent = $_GPC['agent'] != null?intval($_GPC['agent']) : 2;
+		$mid = $_GPC['mid'] != null ? intval($_GPC['mid']) : 0;
 		$_GPC['agent'] = $agent;
 		$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE `uniacid` = :uniacid AND from_user=:from_user ",array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
 		$id = $profile['id'];
@@ -1281,7 +1282,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
                 'commission'=>0,
                 'createtime'=>TIMESTAMP,
                 'flagtime'=>TIMESTAMP,
-                'shareid'=> $seid,
+                'shareid'=> $mid,
                 'status'=> 1,
                 'flag'=> 0,
                 'agent'=> $agent

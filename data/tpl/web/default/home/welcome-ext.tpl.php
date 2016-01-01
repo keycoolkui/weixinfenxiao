@@ -408,20 +408,15 @@ window.setInterval("reinitIframe()", 200);
                 <div class="informer informer-default dir-tr"><span class="fo <?php  echo $snav_icon;?>"></span></div>
             </a>
         </div>
-								<?php  } } ?>
+		<?php  } } ?>
 		</div>
 <?php  } } ?>
 <!--新增开始-->
 <?php  } else { ?>
-
 	<div class="page-header2">
 		<h4><i class="fa2 fa-plane"></i> 点击左侧功能列表，开始设置功能吧！</h4>
 	</div>
-
-
 <!--新end-->
 
 <?php  } ?>
-
-
 <?php (!empty($this) && $this instanceof WeModuleSite || 0) ? (include $this->template('common/footer', TEMPLATE_INCLUDEPATH)) : (include template('common/footer', TEMPLATE_INCLUDEPATH));?>
