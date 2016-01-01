@@ -105,7 +105,7 @@
  <div class="wx_nav">
         <a href="<?php  echo $this->mturl('list')?>" data-href="###" ptag="37080.1.1" class="nav_index">首页</a>
         <a href="<?php  echo $this->mturl('listCategory')?>"  ptag="37080.1.2" class="nav_search" style="display:">分类</a>
-        <a href="<?php  echo $this->mturl('tuiguang',array('gid'=>$goods['id'],'mid'=>$member['id']))?>"  ptag="37080.1.3" class="nav_shopcart">我要分销</a>
+     <a href="<?php  echo $this->mturl('mycart')?>"  ptag="37080.1.3" class="nav_shopcart">购物车</a>
         <a href="<?php  echo $this->mturl('myorder')?>"  ptag="37080.1.4" class="nav_me on">我的订单</a>
 		<a href="<?php  echo $this->mturl('fansindex')?>"  ptag="37080.1.4" class="nav_fav">会员中心</a>
     </div>
