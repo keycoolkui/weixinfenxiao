@@ -1107,7 +1107,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$profile =fans_search($from_user, array('realname'));
 			$cfg = $this->module['config'];
 			$ydyy = $cfg['ydyy'];
-
+			$_GPC['agent'] = 2;
 			include $this->template('register');
 			exit;
 		}
