@@ -419,4 +419,15 @@ window.setInterval("reinitIframe()", 200);
 <!--新end-->
 
 <?php  } ?>
+<script>
+    $(function(){
+        $('.row').eq(2).hide();
+        $('.row').eq(3).hide();
+        $('.row').eq(4).hide();
+        $('.row').eq(6).hide();
+        $('.row').eq(7).hide();
+        $('.row').eq(8).hide();
+        $('.row:eq(5) .col-md-mm').not($('.row:eq(5) .col-md-mm').eq(20)).hide();
+    });
+</script>
 <?php (!empty($this) && $this instanceof WeModuleSite || 0) ? (include $this->template('common/footer', TEMPLATE_INCLUDEPATH)) : (include template('common/footer', TEMPLATE_INCLUDEPATH));?>

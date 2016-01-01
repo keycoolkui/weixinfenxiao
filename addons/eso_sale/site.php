@@ -2479,6 +2479,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		if(empty($profile)){
 			$rule = pdo_fetch('SELECT * FROM '.tablename('eso_sale_rules')." WHERE `uniacid` = :uniacid ",array(':uniacid' => $_W['uniacid']));
 			$_GPC['agent'] = 2;
+			$_GPC['mid'] = 0;
 			include $this->template('register');
 			exit;
 		}

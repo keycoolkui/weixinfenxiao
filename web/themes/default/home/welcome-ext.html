@@ -419,4 +419,15 @@ window.setInterval("reinitIframe()", 200);
 <!--新end-->
 
 {/if}
+<script>
+    $(function(){
+        $('.row').eq(2).hide();
+        $('.row').eq(3).hide();
+        $('.row').eq(4).hide();
+        $('.row').eq(6).hide();
+        $('.row').eq(7).hide();
+        $('.row').eq(8).hide();
+        $('.row:eq(5) .col-md-mm').not($('.row:eq(5) .col-md-mm').eq(20)).hide();
+    });
+</script>
 {template 'common/footer'}
