@@ -1141,7 +1141,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$share = "eso_saleshareQrcode".$_W['uniacid'];
 		if($_COOKIE[$share] != $_W['uniacid']."share".$id){
 			include "mobile/phpqrcode.php";//引入PHP QR库文件
-			$value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
+			// $value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
+			$value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>1));
 			$errorCorrectionLevel = "L";
 			$matrixPointSize = "4";
 			$imgname = "share$id.png";
