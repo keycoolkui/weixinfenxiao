@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/style/images/share/share15.png" afterPath="$PROJECT_DIR$/addons/eso_sale/style/images/share/share15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/site.php" afterPath="$PROJECT_DIR$/addons/eso_sale/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tpl/app/default/eso_sale/5_fshome.tpl.php" afterPath="$PROJECT_DIR$/data/tpl/app/default/eso_sale/5_fshome.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -365,13 +361,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fshome.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fshome.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49215406">
-              <caret line="191" column="183" selection-start-line="191" selection-start-column="183" selection-end-line="191" selection-end-column="183" />
+            <state vertical-scroll-proportion="-27.5">
+              <caret line="186" column="109" selection-start-line="186" selection-start-column="109" selection-end-line="186" selection-end-column="109" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_category.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.55064195">
+              <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
+              <folding>
+                <marker date="1451619996000" expanded="true" signature="2215:2305" placeholder="..." />
+                <marker date="1451619996000" expanded="true" signature="2319:2382" placeholder="..." />
+                <marker date="1451619996000" expanded="true" signature="2397:2523" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -441,6 +451,7 @@
         <option value="$PROJECT_DIR$/addons/eso_sale/template/charge.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/site.php" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" />
+        <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html" />
       </list>
     </option>
   </component>
@@ -497,6 +508,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eso_sale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eso_sale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eso_sale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,13 +691,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addons/eso_sale/jsapi_ticket.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/preview.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1359,10 +1443,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49215406">
-          <caret line="191" column="183" selection-start-line="191" selection-start-column="183" selection-end-line="191" selection-end-column="183" />
+        <state vertical-scroll-proportion="-27.5">
+          <caret line="186" column="109" selection-start-line="186" selection-start-column="109" selection-end-line="186" selection-end-column="109" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55064195">
+          <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
+          <folding>
+            <marker date="1451619996000" expanded="true" signature="2215:2305" placeholder="..." />
+            <marker date="1451619996000" expanded="true" signature="2319:2382" placeholder="..." />
+            <marker date="1451619996000" expanded="true" signature="2397:2523" placeholder="..." />
           </folding>
         </state>
       </provider>
