@@ -65,7 +65,8 @@ $("#J_submitReg").live("click", function () {
 	realname = $("#realname").val();
 	mobile 	 = $("#mobile").val();
 	password = $("#password").val();
-    agent    = {$_GPC['agent']};
+    agent    = '{$_GPC['agent']}';
+    mid    = '{$mid}';
 	alipay 	 = '';
 	wxhao 	 = '';
 	banktype = '';
@@ -94,7 +95,7 @@ $("#J_submitReg").live("click", function () {
 		$.ajax({
 			type: "POST",
 			url: "{php echo $this->mturl('register',array('op'=>'add'))}",
-			data: { realname:realname, agent:agent, mobile:mobile, banktype:banktype, bankcard:bankcard, password:password, alipay:alipay, wxhao:wxhao },
+			data: { realname:realname, mid:mid, agent:agent, mobile:mobile, banktype:banktype, bankcard:bankcard, password:password, alipay:alipay, wxhao:wxhao },
 			dataType: "text",
 			
 			success: function (d) {

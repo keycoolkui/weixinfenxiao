@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/site.php" afterPath="$PROJECT_DIR$/addons/eso_sale/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="site.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3768546">
-              <caret line="1144" column="97" selection-start-line="1144" selection-start-column="97" selection-end-line="1144" selection-end-column="97" />
+            <state vertical-scroll-proportion="-2.0392158">
+              <caret line="1182" column="8" selection-start-line="1182" selection-start-column="8" selection-end-line="1182" selection-end-column="12" />
               <folding>
                 <element signature="n#__mobile#0;n#Eso_SaleModuleSite#0;n#!!top" expanded="false" />
                 <element signature="n#doWebCategory#0;n#Eso_SaleModuleSite#0;n#!!top" expanded="false" />
@@ -375,11 +375,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="169" selection-start-line="18" selection-start-column="165" selection-end-line="18" selection-end-column="169" />
+            <state vertical-scroll-proportion="0.64194006">
+              <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -423,7 +423,6 @@
         <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanagered.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanager_addbusiness.html" />
-        <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/myfans.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/charge.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/list_category.html" />
@@ -433,6 +432,7 @@
         <option value="$PROJECT_DIR$/web/themes/default/home/welcome-ext.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/site.php" />
+        <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" />
       </list>
     </option>
   </component>
@@ -769,6 +769,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38659057">
           <caret line="970" column="27" selection-start-line="970" selection-start-column="27" selection-end-line="970" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,6 +1005,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0416665">
           <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <marker date="1430731970000" expanded="true" signature="941:1318" placeholder="..." />
+            <marker date="1430731970000" expanded="true" signature="995:1307" placeholder="{...}" />
+            <marker date="1430731970000" expanded="true" signature="1134:1305" placeholder="{...}" />
+            <marker date="1430731970000" expanded="true" signature="3379:3447" placeholder="SELECT * FRO... ${tablename('modules_bindings')}" />
+            <marker date="1430731970000" expanded="true" signature="3505:3623" placeholder="SELECT id FR... ${tablename('solution_acl')}" />
+            <marker date="1430731970000" expanded="true" signature="4133:4222" placeholder="SELECT url F... ${tablename('users_permission')}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,6 +1020,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4293866">
           <caret line="206" column="47" selection-start-line="206" selection-start-column="47" selection-end-line="206" selection-end-column="47" />
+          <folding>
+            <marker date="1434335210000" expanded="true" signature="396:459" placeholder="SELECT group... ${tablename('users')}" />
+            <marker date="1434335210000" expanded="true" signature="511:596" placeholder="SELECT maxac... ${tablename('users_group')}" />
+            <marker date="1434335210000" expanded="true" signature="649:741" placeholder="SELECT uniac... ${tablename('uni_account_users')}" />
+            <marker date="1434335210000" expanded="true" signature="1155:1255" placeholder="SELECT COUNT... ${tablename('account')}" />
+            <marker date="1434335210000" expanded="true" signature="2021:2100" placeholder="SELECT id,ti... ${tablename('site_templates')}" />
+            <marker date="1434335210000" expanded="true" signature="4501:4571" placeholder="SELECT * FRO... ${tablename('uni_account')}" />
+            <marker date="1434335210000" expanded="true" signature="4633:4704" placeholder="SELECT uniac... ${tablename('uni_account_users')}" />
+            <marker date="1434335210000" expanded="true" signature="4800:4929" placeholder="SELECT * FRO... ${tablename('uni_account')}" />
+            <marker date="1434335210000" expanded="true" signature="5300:5397" placeholder="SELECT `role... ${tablename('uni_account_users')}" />
+            <marker date="1434335210000" expanded="true" signature="5673:5841" placeholder="SELECT w.*, ${tablename('account')}" />
+            <marker date="1434335210000" expanded="true" signature="6290:6363" placeholder="SELECT * FRO... ${tablename('uni_account')}" />
+            <marker date="1434335210000" expanded="true" signature="6622:6713" placeholder="SELECT * FRO... ${tablename('modules')}" />
+            <marker date="1434335210000" expanded="true" signature="6792:6864" placeholder="SELECT * FRO... ${tablename('modules')}" />
+            <marker date="1434335210000" expanded="true" signature="6923:6986" placeholder="SELECT `modu... ${tablename('uni_group')}" />
+            <marker date="1434335210000" expanded="true" signature="7255:7351" placeholder="SELECT * FRO... ${tablename('modules')}" />
+            <marker date="1434335210000" expanded="true" signature="7617:7778" placeholder="SELECT `modu... ${tablename('uni_account_modules')}" />
+            <marker date="1434335210000" expanded="true" signature="8992:9059" placeholder="SELECT * FRO... ${tablename('uni_group')}" />
+            <marker date="1434335210000" expanded="true" signature="9277:9372" placeholder="SELECT name,... ${tablename('modules')}" />
+            <marker date="1434335210000" expanded="true" signature="9545:9647" placeholder="SELECT name,... ${tablename('site_templates')}" />
+            <marker date="1434335210000" expanded="true" signature="9820:9890" placeholder="SELECT * FRO... ${tablename('site_templates')}" />
+            <marker date="1434335210000" expanded="true" signature="9969:10032" placeholder="SELECT * FRO... ${tablename('site_templates')}" />
+            <marker date="1434335210000" expanded="true" signature="10089:10161" placeholder="SELECT modul... ${tablename('uni_group')}" />
+            <marker date="1434335210000" expanded="true" signature="10338:10529" placeholder="SELECT * FRO... ${tablename('site_templates')}" />
+            <marker date="1434335210000" expanded="true" signature="10841:10909" placeholder="SELECT * FRO... ${tablename('uni_settings')}" />
+            <marker date="1434335210000" expanded="true" signature="12505:12645" placeholder="SELECT w.*, ${tablename('account')}" />
+            <marker date="1434335210000" expanded="true" signature="24258:24403" placeholder="SELECT w.* F... ${tablename('uni_account')}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,18 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="169" selection-start-line="18" selection-start-column="165" selection-end-line="18" selection-end-column="169" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3768546">
-          <caret line="1144" column="97" selection-start-line="1144" selection-start-column="97" selection-end-line="1144" selection-end-column="97" />
+        <state vertical-scroll-proportion="-2.0392158">
+          <caret line="1182" column="8" selection-start-line="1182" selection-start-column="8" selection-end-line="1182" selection-end-column="12" />
           <folding>
             <element signature="n#__mobile#0;n#Eso_SaleModuleSite#0;n#!!top" expanded="false" />
             <element signature="n#doWebCategory#0;n#Eso_SaleModuleSite#0;n#!!top" expanded="false" />
@@ -1391,6 +1420,14 @@
             <marker date="1451636284000" expanded="true" signature="168220:168320" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
             <marker date="1451636284000" expanded="true" signature="168919:169019" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64194006">
+          <caret line="97" column="49" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
