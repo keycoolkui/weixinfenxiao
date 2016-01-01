@@ -1,1 +1,4 @@
-data/
+data
+.idea
+app/jsapi_ticket.json
+app/access_token.json
