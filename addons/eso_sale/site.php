@@ -1061,41 +1061,41 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$op = $_GPC['op']?$_GPC['op']:'display';
 
 		$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
-		if(!empty($profile)){
-			$count1 = pdo_fetchcolumn("select count(*) from ("."select from_user from ".tablename('eso_sale_order')." where  shareid = ".$profile['id'].'  group by from_user'.") x");
-
-			$count1_2 = pdo_fetchcolumn("select count(mber.id) from ".tablename('eso_sale_member')." mber where mber.shareid = ".$profile['id']." and mber.from_user not in ("."select orders.from_user from ".tablename('eso_sale_order')." orders where  orders.shareid = ".$profile['id']." group by from_user)");
-			$count1=$count1+$count1_2;
-			if($count1>0)
-			{
-				$countall = pdo_fetch("select id from ".tablename('eso_sale_member')." where shareid = ".$profile['id']);
-				$count2=0;
-				$count3=0;
-				if ($countall) {
-					foreach ($countall as &$citem){
-						$tcount2 = pdo_fetchcolumn("select count(id) from ".tablename('eso_sale_member')." where shareid = ".$citem);
-
-						$count2=$count2+$tcount2;
-						$count2all = pdo_fetch("select id from ".tablename('eso_sale_member')." where shareid = ".$citem);
-                        if($count2all){
-                            foreach ($count2all as &$citem2){
-                                $tcount3 = pdo_fetchcolumn("select count(*) from ("."select from_user from ".tablename('eso_sale_order')." where  shareid = ".$citem2.' and shareid!='.$citem.' and shareid!='.$profile['id'].' group by from_user'.") y"  );
-                                $count3=$count3+$tcount3;
-                            }
-                        }
-					}
-				}
-			}else
-			{
-				$count1=0;
-				$count2=0;
-				$count3=0;
-			}
-			$count1=$count1+$count2+$count3;
-		}else
-		{
-			$count1=0;
-		}
+//		if(!empty($profile)){
+//			$count1 = pdo_fetchcolumn("select count(*) from ("."select from_user from ".tablename('eso_sale_order')." where  shareid = ".$profile['id'].'  group by from_user'.") x");
+//
+//			$count1_2 = pdo_fetchcolumn("select count(mber.id) from ".tablename('eso_sale_member')." mber where mber.shareid = ".$profile['id']." and mber.from_user not in ("."select orders.from_user from ".tablename('eso_sale_order')." orders where  orders.shareid = ".$profile['id']." group by from_user)");
+//			$count1=$count1+$count1_2;
+//			if($count1>0)
+//			{
+//				$countall = pdo_fetch("select id from ".tablename('eso_sale_member')." where shareid = ".$profile['id']);
+//				$count2=0;
+//				$count3=0;
+//				if ($countall) {
+//					foreach ($countall as &$citem){
+//						$tcount2 = pdo_fetchcolumn("select count(id) from ".tablename('eso_sale_member')." where shareid = ".$citem);
+//
+//						$count2=$count2+$tcount2;
+//						$count2all = pdo_fetch("select id from ".tablename('eso_sale_member')." where shareid = ".$citem);
+//                        if($count2all){
+//                            foreach ($count2all as &$citem2){
+//                                $tcount3 = pdo_fetchcolumn("select count(*) from ("."select from_user from ".tablename('eso_sale_order')." where  shareid = ".$citem2.' and shareid!='.$citem.' and shareid!='.$profile['id'].' group by from_user'.") y"  );
+//                                $count3=$count3+$tcount3;
+//                            }
+//                        }
+//					}
+//				}
+//			}else
+//			{
+//				$count1=0;
+//				$count2=0;
+//				$count3=0;
+//			}
+//			$count1=$count1+$count2+$count3;
+//		}else
+//		{
+//			$count1=0;
+//		}
 
 		$id = $profile['id'];
 		if(intval($profile['id']) && $profile['status']==0){
@@ -1178,6 +1178,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$from_user =$this->getFromUser();
 		$uniacid=$_W['uniacid'];
 		$op = $_GPC['op']?$_GPC['op']:'display';
+		$agent = $_GPC['agent'] != null?intval($_GPC['agent']) : 2;
+		$_GPC['agent'] = $agent;
 		$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE `uniacid` = :uniacid AND from_user=:from_user ",array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
 		$id = $profile['id'];
 		if($op=='display'){
@@ -1224,7 +1226,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		if($op=='add'){
 			$shareid = 'eso_sale_sid07'.$_W['uniacid'];
 			$seid=$_COOKIE[$shareid];
-            $agent = $_GPC['agent'] != null?intval($_GPC['agent']) : 2;
 			if(empty($seid))
 			{
 				$seid=0;
@@ -2475,7 +2476,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		}
 		if(empty($profile)){
 			$rule = pdo_fetch('SELECT * FROM '.tablename('eso_sale_rules')." WHERE `uniacid` = :uniacid ",array(':uniacid' => $_W['uniacid']));
-
+			$_GPC['agent'] = 2;
 			include $this->template('register');
 			exit;
 		}
