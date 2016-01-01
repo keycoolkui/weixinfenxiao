@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/style/images/share/share15.png" afterPath="$PROJECT_DIR$/addons/eso_sale/style/images/share/share15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/access_token.json" afterPath="$PROJECT_DIR$/app/access_token.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/jsapi_ticket.json" afterPath="$PROJECT_DIR$/app/jsapi_ticket.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tpl/app/default/eso_sale/5_fshome.tpl.php" afterPath="$PROJECT_DIR$/data/tpl/app/default/eso_sale/5_fshome.tpl.php" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -369,8 +364,8 @@
       <file leaf-file-name="fshome.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42796007">
-              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5341246">
+              <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1398,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/fshome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42796007">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5341246">
+          <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
