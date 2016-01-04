@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/site.php" afterPath="$PROJECT_DIR$/addons/eso_sale/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager_addbusiness.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager_addbusiness.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,296 +27,296 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47013783">
-              <caret line="1574" column="212" selection-start-line="1574" selection-start-column="212" selection-end-line="1574" selection-end-column="212" />
+            <state vertical-scroll-proportion="0.49310872">
+              <caret line="1575" column="98" selection-start-line="1575" selection-start-column="98" selection-end-line="1575" selection-end-column="98" />
               <folding>
-                <marker date="1451889404000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="1693:1762" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="1892:1974" placeholder="SELECT id, n... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="3280:3360" placeholder="SELECT id, p... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="4436:4564" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="4977:5041" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="5172:5262" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
-                <marker date="1451889404000" expanded="true" signature="5350:5450" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
-                <marker date="1451889404000" expanded="true" signature="5534:5633" placeholder="select * fro... ${tablename('eso_sale_goods_param')}" />
-                <marker date="1451889404000" expanded="true" signature="5763:5853" placeholder="select * fro... ${tablename('eso_sale_goods_option')}" />
-                <marker date="1451889404000" expanded="true" signature="6515:6537" placeholder="..." />
-                <marker date="1451889404000" expanded="true" signature="14654:14774" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="14810:14878" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="17212:17361" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="17400:17494" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="17721:17861" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="17897:17987" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="19568:19690" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="19726:19795" placeholder="delete from " />
-                <marker date="1451889404000" expanded="true" signature="20731:20927" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="20969:21076" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="21228:21300" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="22787:22873" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="23187:23357" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="23399:23491" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="23641:23750" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="24203:24270" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="24395:24498" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="24589:24696" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="24848:24912" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="25170:25240" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="25695:25765" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="27193:27263" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="27758:27825" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="27950:28022" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="28099:28162" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="28212:28504" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="29686:29772" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="30086:30294" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="30336:30466" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="30616:30725" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="31178:31245" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="31370:31473" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="31564:31671" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="31823:31887" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="32145:32215" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="32670:32740" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="34168:34238" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="34733:34800" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="34925:34997" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="35074:35137" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="35187:35479" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="35683:35932" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="38193:38214" placeholder="SELECT COUNT... ${tablename('eso_sale_feedback')}" />
-                <marker date="1451889404000" expanded="true" signature="38292:38408" placeholder="SELECT * FRO... ${tablename('eso_sale_feedback')}" />
-                <marker date="1451889404000" expanded="true" signature="38605:38742" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="38979:39115" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="39556:39679" placeholder="select sum(t... ${tablename('eso_sale_cart')}" />
-                <marker date="1451889404000" expanded="true" signature="40541:40984" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="41025:41317" placeholder="select count... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="41618:41718" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="43653:43725" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="43983:44054" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="44184:44299" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="45696:45780" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="46006:46087" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="46130:46476" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="46991:47089" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="47249:47321" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="50336:50445" placeholder="SELECT from_... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="51424:51523" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="51863:51947" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="52179:52260" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="52304:52650" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="52788:52911" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="53149:53254" placeholder="select count... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="53410:53865" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="53979:54407" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="54445:54520" placeholder="select id, r... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="54669:54739" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="54920:55004" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="55251:55332" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="55362:55844" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="55886:56177" placeholder="SELECT count... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="56469:56574" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="56831:56966" placeholder="select id, b... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="57844:57915" placeholder="SELECT * FRO... ${tablename('eso_sale_rule')}" />
-                <marker date="1451889404000" expanded="true" signature="58069:58169" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="59105:59205" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="59578:59966" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="60004:60109" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="60223:60328" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="60626:60699" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="60766:60865" placeholder="SELECT id FR... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="62139:62412" placeholder="select sale.... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="62640:62784" placeholder="select mid, ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="63021:63290" placeholder="select sale.... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="64025:64169" placeholder="select mid, ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="65047:65106" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="66667:66735" placeholder="select commi... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="67150:67209" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="67251:67363" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="67539:67655" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="68550:68665" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="68951:69024" placeholder="select realn... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="69082:69365" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="70282:70448" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="70477:70769" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="70900:71197" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="71240:71454" placeholder="select count... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="71702:71787" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="71845:72128" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="72190:72278" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="72334:72451" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="72600:72716" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="72818:72903" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="73005:73121" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-                <marker date="1451889404000" expanded="true" signature="73226:73311" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="74148:74215" placeholder="select id,sh... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="74304:74374" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="74940:75004" placeholder="select share... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="75098:75168" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="76261:76329" placeholder="select commi... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="77075:77143" placeholder="select commi... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="77911:77979" placeholder="select commi... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="79538:79704" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="79733:80026" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="80156:80458" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="80501:80716" placeholder="select count... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="81356:81429" placeholder="select realn... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="81487:81724" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="82662:82828" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="82857:83151" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="83281:83579" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="83673:83889" placeholder="select count... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="84502:84796" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="84868:85125" placeholder="SELECT c.*,m... ims_eso_sale_commission" />
-                <marker date="1451889404000" expanded="true" signature="85354:85551" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="88881:88952" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="90711:90785" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="91095:91237" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="91551:91768" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="91816:91963" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="92304:92549" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="92603:92777" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="93094:93216" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
-                <marker date="1451889404000" expanded="true" signature="93747:93913" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="94036:94213" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="94259:94351" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="94829:95033" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="95370:95444" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="95630:95819" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="96226:96300" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="98283:98425" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="98863:99000" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="99230:99355" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="99887:100029" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-                <marker date="1451889404000" expanded="true" signature="100627:100691" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="100744:100817" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="100883:100983" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="101230:101302" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="103021:103121" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="104804:104967" placeholder="select mem.i... " />
-                <marker date="1451889404000" expanded="true" signature="104834:104893" placeholder="select count... ${$tablename}" />
-                <marker date="1451889404000" expanded="true" signature="105178:105278" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="105422:105649" placeholder="select mc_me... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="105514:105645" placeholder="select order... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="105685:106047" placeholder="select mc_me... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="105777:106043" placeholder="select mber.... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="105906:106042" placeholder="select order... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="106127:106191" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="106304:106487" placeholder="select mc_me... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="106396:106476" placeholder="select mber.... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="106551:106615" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="106736:106800" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="106964:107253" placeholder="select mc_me... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="107655:107752" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="107985:108072" placeholder="select marke... ${tablename('eso_sale_goods_option')}" />
-                <marker date="1451889404000" expanded="true" signature="108207:108372" placeholder="SELECT id, t... ${tablename('eso_sale_cart')}" />
-                <marker date="1451889404000" expanded="true" signature="109991:110108" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
-                <marker date="1451889404000" expanded="true" signature="110213:110328" placeholder="SELECT title... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="110402:110501" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="111435:111589" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="111804:111910" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="112619:112736" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
-                <marker date="1451889404000" expanded="true" signature="112817:112956" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="113027:113133" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="113893:114067" placeholder="select id,di... ${tablename(&quot;eso_sale_dispatch&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="114713:114779" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="116373:116450" placeholder="select title... ${tablename('eso_sale_goods_option')}" />
-                <marker date="1451889404000" expanded="true" signature="116744:116809" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="116862:116928" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="116981:117047" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="118503:118603" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="118784:118856" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="118940:119039" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="119165:119238" placeholder="SELECT `cred... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="120051:120115" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="120333:120439" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="120520:120681" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="120787:120853" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="122475:122565" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="122655:122727" placeholder="SELECT `titl... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="123169:123235" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="123825:123916" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="124344:124489" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="124617:124713" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="124764:124989" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="125056:125162" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="125381:125468" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="125890:126007" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="126064:126188" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="126327:126425" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="126477:126706" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="126782:126888" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-                <marker date="1451889404000" expanded="true" signature="127202:127289" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="127646:127770" placeholder="SELECT * FRO... ${tablename('eso_sale_share_history')}" />
-                <marker date="1451889404000" expanded="true" signature="127875:127978" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="128330:128401" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-                <marker date="1451889404000" expanded="true" signature="128516:128607" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
-                <marker date="1451889404000" expanded="true" signature="129201:129301" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="129630:129694" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="129915:129979" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="130022:130114" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="131434:131526" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
-                <marker date="1451889404000" expanded="true" signature="131618:131732" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
-                <marker date="1451889404000" expanded="true" signature="131821:131979" placeholder="select id,ti... ${tablename('eso_sale_goods_option')}" />
-                <marker date="1451889404000" expanded="true" signature="132433:132548" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_option')}" />
-                <marker date="1451889404000" expanded="true" signature="132902:133006" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_param')}" />
-                <marker date="1451889404000" expanded="true" signature="133109:133286" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="133316:133408" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="135346:135501" placeholder="select isdef... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="135883:135999" placeholder="SELECT id, r... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="136170:136313" placeholder="select isdef... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="136741:136876" placeholder="select max(i... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="137362:137450" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="137736:137862" placeholder="SELECT plid,... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="139421:139511" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="139597:139681" placeholder="SELECT `tota... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="140177:140299" placeholder="SELECT `pric... ${tablename('eso_sale_order')}" />
-                <marker date="1451889404000" expanded="true" signature="140335:140438" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="140489:140643" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-                <marker date="1451889404000" expanded="true" signature="140673:140739" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-                <marker date="1451889404000" expanded="true" signature="143305:143418" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="144184:144285" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="144382:144488" placeholder="SELECT id FR... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="145058:145172" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="146059:146161" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="146193:146306" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-                <marker date="1451889404000" expanded="true" signature="146404:146511" placeholder="SELECT id FR... ${tablename('eso_sale_dispatch')}" />
-                <marker date="1451889404000" expanded="true" signature="147103:147212" placeholder="SELECT * FRO... ${tablename('eso_sale_adv')}" />
-                <marker date="1451889404000" expanded="true" signature="147853:147942" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
-                <marker date="1451889404000" expanded="true" signature="148086:148188" placeholder="SELECT id FR... ${tablename('eso_sale_adv')}" />
-                <marker date="1451889404000" expanded="true" signature="149126:149205" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="150417:150503" placeholder="SELECT award... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="150813:150936" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="151321:151391" placeholder="SELECT id FR... ${tablename('eso_sale_credit_request')}" />
-                <marker date="1451889404000" expanded="true" signature="151665:151863" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="152220:152343" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="152639:152751" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="153065:153177" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="155054:155283" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-                <marker date="1451889404000" expanded="true" signature="155349:155449" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="156073:156173" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="156379:156476" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="156567:156727" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="157513:157679" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="157844:157999" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="158117:158330" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="158386:158543" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="158660:158872" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="159784:159884" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="160141:160246" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="160339:160507" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="160544:160571" placeholder="SELECT `name... ${tablename('modules')}" />
-                <marker date="1451889404000" expanded="true" signature="161045:161165" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="161207:161307" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="161466:161555" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="161673:161820" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="161876:161967" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="162084:162230" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-                <marker date="1451889404000" expanded="true" signature="162523:162592" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
-                <marker date="1451889404000" expanded="true" signature="163424:163534" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="163627:163800" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-                <marker date="1451889404000" expanded="true" signature="163839:163866" placeholder="SELECT `name... ${tablename('modules')}" />
-                <marker date="1451889404000" expanded="true" signature="168245:168345" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-                <marker date="1451889404000" expanded="true" signature="168944:169044" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="1693:1762" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="1892:1974" placeholder="SELECT id, n... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="3280:3360" placeholder="SELECT id, p... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="4436:4564" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="4977:5041" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="5172:5262" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
+                <marker date="1451889516000" expanded="true" signature="5350:5450" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
+                <marker date="1451889516000" expanded="true" signature="5534:5633" placeholder="select * fro... ${tablename('eso_sale_goods_param')}" />
+                <marker date="1451889516000" expanded="true" signature="5763:5853" placeholder="select * fro... ${tablename('eso_sale_goods_option')}" />
+                <marker date="1451889516000" expanded="true" signature="6515:6537" placeholder="..." />
+                <marker date="1451889516000" expanded="true" signature="14654:14774" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="14810:14878" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="17212:17361" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="17400:17494" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="17721:17861" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="17897:17987" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="19568:19690" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="19726:19795" placeholder="delete from " />
+                <marker date="1451889516000" expanded="true" signature="20731:20927" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="20969:21076" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="21228:21300" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="22787:22873" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="23187:23357" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="23399:23491" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="23641:23750" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="24203:24270" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="24395:24498" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="24589:24696" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="24848:24912" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="25170:25240" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="25695:25765" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="27193:27263" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="27758:27825" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="27950:28022" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="28099:28162" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="28212:28504" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="29686:29772" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="30086:30294" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="30336:30466" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="30616:30725" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="31178:31245" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="31370:31473" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="31564:31671" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="31823:31887" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="32145:32215" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="32670:32740" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="34168:34238" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="34733:34800" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="34925:34997" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="35074:35137" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="35187:35479" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="35683:35932" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="38193:38214" placeholder="SELECT COUNT... ${tablename('eso_sale_feedback')}" />
+                <marker date="1451889516000" expanded="true" signature="38292:38408" placeholder="SELECT * FRO... ${tablename('eso_sale_feedback')}" />
+                <marker date="1451889516000" expanded="true" signature="38605:38742" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="38979:39115" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="39556:39679" placeholder="select sum(t... ${tablename('eso_sale_cart')}" />
+                <marker date="1451889516000" expanded="true" signature="40541:40984" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="41025:41317" placeholder="select count... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="41618:41718" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="43653:43725" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="43983:44054" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="44184:44299" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="45696:45780" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="46006:46087" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="46130:46476" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="46991:47089" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="47249:47321" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="50336:50445" placeholder="SELECT from_... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="51424:51523" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="51863:51947" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="52179:52260" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="52304:52650" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="52788:52911" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="53149:53254" placeholder="select count... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="53410:53865" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="53979:54407" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="54445:54520" placeholder="select id, r... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="54669:54739" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="54920:55004" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="55251:55332" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="55362:55844" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="55886:56177" placeholder="SELECT count... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="56469:56574" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="56831:56966" placeholder="select id, b... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="57844:57915" placeholder="SELECT * FRO... ${tablename('eso_sale_rule')}" />
+                <marker date="1451889516000" expanded="true" signature="58069:58169" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="59105:59205" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="59578:59966" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="60004:60109" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="60223:60328" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="60626:60699" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="60766:60865" placeholder="SELECT id FR... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="62139:62408" placeholder="select sale.... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="62623:62767" placeholder="select mid, ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="63004:63273" placeholder="select sale.... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="64008:64152" placeholder="select mid, ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="65030:65089" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="66650:66718" placeholder="select commi... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="67133:67192" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="67234:67346" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="67522:67638" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="68533:68648" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="68934:69007" placeholder="select realn... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="69065:69348" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="70265:70431" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="70460:70752" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="70883:71180" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="71223:71437" placeholder="select count... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="71685:71770" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="71828:72111" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="72173:72261" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="72317:72434" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="72583:72699" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="72801:72886" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="72988:73104" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+                <marker date="1451889516000" expanded="true" signature="73209:73294" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="74131:74198" placeholder="select id,sh... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="74287:74357" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="74923:74987" placeholder="select share... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="75081:75151" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="76244:76312" placeholder="select commi... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="77058:77126" placeholder="select commi... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="77894:77962" placeholder="select commi... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="79521:79687" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="79716:80009" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="80139:80441" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="80484:80699" placeholder="select count... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="81339:81412" placeholder="select realn... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="81470:81707" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="82645:82811" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="82840:83134" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="83264:83562" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="83656:83872" placeholder="select count... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="84485:84779" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="84851:85108" placeholder="SELECT c.*,m... ims_eso_sale_commission" />
+                <marker date="1451889516000" expanded="true" signature="85337:85534" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="88864:88935" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="90694:90768" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="91078:91220" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="91534:91751" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="91799:91946" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="92287:92532" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="92586:92760" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="93077:93199" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
+                <marker date="1451889516000" expanded="true" signature="93730:93896" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="94019:94196" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="94242:94334" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="94812:95016" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="95353:95427" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="95613:95802" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="96209:96283" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="98266:98408" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="98846:98983" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="99213:99338" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="99870:100012" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+                <marker date="1451889516000" expanded="true" signature="100610:100674" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="100727:100800" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="100866:100966" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="101213:101285" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="103004:103104" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="104787:104950" placeholder="select mem.i... " />
+                <marker date="1451889516000" expanded="true" signature="104817:104876" placeholder="select count... ${$tablename}" />
+                <marker date="1451889516000" expanded="true" signature="105161:105261" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="105405:105632" placeholder="select mc_me... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="105497:105628" placeholder="select order... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="105668:106030" placeholder="select mc_me... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="105760:106026" placeholder="select mber.... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="105889:106025" placeholder="select order... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="106110:106174" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="106287:106470" placeholder="select mc_me... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="106379:106459" placeholder="select mber.... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="106534:106598" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="106719:106783" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="106947:107236" placeholder="select mc_me... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="107638:107735" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="107968:108055" placeholder="select marke... ${tablename('eso_sale_goods_option')}" />
+                <marker date="1451889516000" expanded="true" signature="108190:108355" placeholder="SELECT id, t... ${tablename('eso_sale_cart')}" />
+                <marker date="1451889516000" expanded="true" signature="109974:110091" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
+                <marker date="1451889516000" expanded="true" signature="110196:110311" placeholder="SELECT title... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="110385:110484" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="111418:111572" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="111787:111893" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="112602:112719" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
+                <marker date="1451889516000" expanded="true" signature="112800:112939" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="113010:113116" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="113876:114050" placeholder="select id,di... ${tablename(&quot;eso_sale_dispatch&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="114696:114762" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="116356:116433" placeholder="select title... ${tablename('eso_sale_goods_option')}" />
+                <marker date="1451889516000" expanded="true" signature="116727:116792" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="116845:116911" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="116964:117030" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="118486:118586" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="118767:118839" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="118923:119022" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="119148:119221" placeholder="SELECT `cred... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="120034:120098" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="120316:120422" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="120503:120664" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="120770:120836" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="122458:122548" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="122638:122710" placeholder="SELECT `titl... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="123152:123218" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="123808:123899" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="124327:124472" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="124600:124696" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="124747:124972" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="125039:125145" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="125364:125451" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="125873:125990" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="126047:126171" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="126310:126408" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="126460:126689" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="126765:126871" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+                <marker date="1451889516000" expanded="true" signature="127185:127272" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="127629:127753" placeholder="SELECT * FRO... ${tablename('eso_sale_share_history')}" />
+                <marker date="1451889516000" expanded="true" signature="127858:127961" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="128313:128384" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+                <marker date="1451889516000" expanded="true" signature="128499:128590" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
+                <marker date="1451889516000" expanded="true" signature="129184:129284" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="129613:129677" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="129898:129962" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="130005:130097" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="131417:131509" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
+                <marker date="1451889516000" expanded="true" signature="131601:131715" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
+                <marker date="1451889516000" expanded="true" signature="131804:131962" placeholder="select id,ti... ${tablename('eso_sale_goods_option')}" />
+                <marker date="1451889516000" expanded="true" signature="132416:132531" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_option')}" />
+                <marker date="1451889516000" expanded="true" signature="132885:132989" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_param')}" />
+                <marker date="1451889516000" expanded="true" signature="133092:133269" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="133299:133391" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="135329:135484" placeholder="select isdef... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="135866:135982" placeholder="SELECT id, r... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="136153:136296" placeholder="select isdef... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="136724:136859" placeholder="select max(i... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="137345:137433" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="137719:137845" placeholder="SELECT plid,... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="139404:139494" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="139580:139664" placeholder="SELECT `tota... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="140160:140282" placeholder="SELECT `pric... ${tablename('eso_sale_order')}" />
+                <marker date="1451889516000" expanded="true" signature="140318:140421" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="140472:140626" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+                <marker date="1451889516000" expanded="true" signature="140656:140722" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+                <marker date="1451889516000" expanded="true" signature="143288:143401" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="144167:144268" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="144365:144471" placeholder="SELECT id FR... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="145041:145155" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="146042:146144" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="146176:146289" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+                <marker date="1451889516000" expanded="true" signature="146387:146494" placeholder="SELECT id FR... ${tablename('eso_sale_dispatch')}" />
+                <marker date="1451889516000" expanded="true" signature="147086:147195" placeholder="SELECT * FRO... ${tablename('eso_sale_adv')}" />
+                <marker date="1451889516000" expanded="true" signature="147836:147925" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
+                <marker date="1451889516000" expanded="true" signature="148069:148171" placeholder="SELECT id FR... ${tablename('eso_sale_adv')}" />
+                <marker date="1451889516000" expanded="true" signature="149109:149188" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="150400:150486" placeholder="SELECT award... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="150796:150919" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="151304:151374" placeholder="SELECT id FR... ${tablename('eso_sale_credit_request')}" />
+                <marker date="1451889516000" expanded="true" signature="151648:151846" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="152203:152326" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="152622:152734" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="153048:153160" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="155037:155266" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+                <marker date="1451889516000" expanded="true" signature="155332:155432" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="156056:156156" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="156362:156459" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="156550:156710" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="157496:157662" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="157827:157982" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="158100:158313" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="158369:158526" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="158643:158855" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="159767:159867" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="160124:160229" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="160322:160490" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="160527:160554" placeholder="SELECT `name... ${tablename('modules')}" />
+                <marker date="1451889516000" expanded="true" signature="161028:161148" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="161190:161290" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="161449:161538" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="161656:161803" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="161859:161950" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="162067:162213" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+                <marker date="1451889516000" expanded="true" signature="162506:162575" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
+                <marker date="1451889516000" expanded="true" signature="163407:163517" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="163610:163783" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+                <marker date="1451889516000" expanded="true" signature="163822:163849" placeholder="SELECT `name... ${tablename('modules')}" />
+                <marker date="1451889516000" expanded="true" signature="168228:168328" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+                <marker date="1451889516000" expanded="true" signature="168927:169027" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
               </folding>
             </state>
           </provider>
@@ -1000,296 +997,296 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47013783">
-          <caret line="1574" column="212" selection-start-line="1574" selection-start-column="212" selection-end-line="1574" selection-end-column="212" />
+        <state vertical-scroll-proportion="0.49310872">
+          <caret line="1575" column="98" selection-start-line="1575" selection-start-column="98" selection-end-line="1575" selection-end-column="98" />
           <folding>
-            <marker date="1451889404000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="1693:1762" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="1892:1974" placeholder="SELECT id, n... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="3280:3360" placeholder="SELECT id, p... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="4436:4564" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="4977:5041" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="5172:5262" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
-            <marker date="1451889404000" expanded="true" signature="5350:5450" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
-            <marker date="1451889404000" expanded="true" signature="5534:5633" placeholder="select * fro... ${tablename('eso_sale_goods_param')}" />
-            <marker date="1451889404000" expanded="true" signature="5763:5853" placeholder="select * fro... ${tablename('eso_sale_goods_option')}" />
-            <marker date="1451889404000" expanded="true" signature="6515:6537" placeholder="..." />
-            <marker date="1451889404000" expanded="true" signature="14654:14774" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="14810:14878" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="17212:17361" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="17400:17494" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="17721:17861" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="17897:17987" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="19568:19690" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="19726:19795" placeholder="delete from " />
-            <marker date="1451889404000" expanded="true" signature="20731:20927" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="20969:21076" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="21228:21300" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="22787:22873" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="23187:23357" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="23399:23491" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="23641:23750" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="24203:24270" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="24395:24498" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="24589:24696" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="24848:24912" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="25170:25240" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="25695:25765" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="27193:27263" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="27758:27825" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="27950:28022" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="28099:28162" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="28212:28504" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="29686:29772" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="30086:30294" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="30336:30466" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="30616:30725" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="31178:31245" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="31370:31473" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="31564:31671" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="31823:31887" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="32145:32215" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="32670:32740" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="34168:34238" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="34733:34800" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="34925:34997" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="35074:35137" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="35187:35479" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="35683:35932" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="38193:38214" placeholder="SELECT COUNT... ${tablename('eso_sale_feedback')}" />
-            <marker date="1451889404000" expanded="true" signature="38292:38408" placeholder="SELECT * FRO... ${tablename('eso_sale_feedback')}" />
-            <marker date="1451889404000" expanded="true" signature="38605:38742" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="38979:39115" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="39556:39679" placeholder="select sum(t... ${tablename('eso_sale_cart')}" />
-            <marker date="1451889404000" expanded="true" signature="40541:40984" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="41025:41317" placeholder="select count... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="41618:41718" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="43653:43725" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="43983:44054" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="44184:44299" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="45696:45780" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="46006:46087" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="46130:46476" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="46991:47089" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="47249:47321" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="50336:50445" placeholder="SELECT from_... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="51424:51523" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="51863:51947" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="52179:52260" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="52304:52650" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="52788:52911" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="53149:53254" placeholder="select count... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="53410:53865" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="53979:54407" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="54445:54520" placeholder="select id, r... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="54669:54739" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="54920:55004" placeholder="select commt... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="55251:55332" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="55362:55844" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="55886:56177" placeholder="SELECT count... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="56469:56574" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="56831:56966" placeholder="select id, b... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="57844:57915" placeholder="SELECT * FRO... ${tablename('eso_sale_rule')}" />
-            <marker date="1451889404000" expanded="true" signature="58069:58169" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="59105:59205" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="59578:59966" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="60004:60109" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="60223:60328" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="60626:60699" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="60766:60865" placeholder="SELECT id FR... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="62139:62412" placeholder="select sale.... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="62640:62784" placeholder="select mid, ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="63021:63290" placeholder="select sale.... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="64025:64169" placeholder="select mid, ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="65047:65106" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="66667:66735" placeholder="select commi... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="67150:67209" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="67251:67363" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="67539:67655" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="68550:68665" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="68951:69024" placeholder="select realn... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="69082:69365" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="70282:70448" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="70477:70769" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="70900:71197" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="71240:71454" placeholder="select count... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="71702:71787" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="71845:72128" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="72190:72278" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="72334:72451" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="72600:72716" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="72818:72903" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="73005:73121" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
-            <marker date="1451889404000" expanded="true" signature="73226:73311" placeholder="select id, r... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="74148:74215" placeholder="select id,sh... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="74304:74374" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="74940:75004" placeholder="select share... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="75098:75168" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="76261:76329" placeholder="select commi... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="77075:77143" placeholder="select commi... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="77911:77979" placeholder="select commi... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="79538:79704" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="79733:80026" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="80156:80458" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="80501:80716" placeholder="select count... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="81356:81429" placeholder="select realn... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="81487:81724" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="82662:82828" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="82857:83151" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="83281:83579" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="83673:83889" placeholder="select count... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="84502:84796" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="84868:85125" placeholder="SELECT c.*,m... ims_eso_sale_commission" />
-            <marker date="1451889404000" expanded="true" signature="85354:85551" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="88881:88952" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="90711:90785" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="91095:91237" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="91551:91768" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="91816:91963" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="92304:92549" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="92603:92777" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="93094:93216" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
-            <marker date="1451889404000" expanded="true" signature="93747:93913" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="94036:94213" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="94259:94351" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="94829:95033" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="95370:95444" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="95630:95819" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="96226:96300" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="98283:98425" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="98863:99000" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="99230:99355" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="99887:100029" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
-            <marker date="1451889404000" expanded="true" signature="100627:100691" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="100744:100817" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="100883:100983" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="101230:101302" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="103021:103121" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="104804:104967" placeholder="select mem.i... " />
-            <marker date="1451889404000" expanded="true" signature="104834:104893" placeholder="select count... ${$tablename}" />
-            <marker date="1451889404000" expanded="true" signature="105178:105278" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="105422:105649" placeholder="select mc_me... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="105514:105645" placeholder="select order... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="105685:106047" placeholder="select mc_me... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="105777:106043" placeholder="select mber.... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="105906:106042" placeholder="select order... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="106127:106191" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="106304:106487" placeholder="select mc_me... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="106396:106476" placeholder="select mber.... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="106551:106615" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="106736:106800" placeholder="select id fr... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="106964:107253" placeholder="select mc_me... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="107655:107752" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="107985:108072" placeholder="select marke... ${tablename('eso_sale_goods_option')}" />
-            <marker date="1451889404000" expanded="true" signature="108207:108372" placeholder="SELECT id, t... ${tablename('eso_sale_cart')}" />
-            <marker date="1451889404000" expanded="true" signature="109991:110108" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
-            <marker date="1451889404000" expanded="true" signature="110213:110328" placeholder="SELECT title... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="110402:110501" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="111435:111589" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="111804:111910" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="112619:112736" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
-            <marker date="1451889404000" expanded="true" signature="112817:112956" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="113027:113133" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="113893:114067" placeholder="select id,di... ${tablename(&quot;eso_sale_dispatch&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="114713:114779" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="116373:116450" placeholder="select title... ${tablename('eso_sale_goods_option')}" />
-            <marker date="1451889404000" expanded="true" signature="116744:116809" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="116862:116928" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="116981:117047" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="118503:118603" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="118784:118856" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="118940:119039" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="119165:119238" placeholder="SELECT `cred... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="120051:120115" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="120333:120439" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="120520:120681" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="120787:120853" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="122475:122565" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="122655:122727" placeholder="SELECT `titl... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="123169:123235" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="123825:123916" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="124344:124489" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="124617:124713" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="124764:124989" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="125056:125162" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="125381:125468" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="125890:126007" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="126064:126188" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="126327:126425" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="126477:126706" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="126782:126888" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
-            <marker date="1451889404000" expanded="true" signature="127202:127289" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="127646:127770" placeholder="SELECT * FRO... ${tablename('eso_sale_share_history')}" />
-            <marker date="1451889404000" expanded="true" signature="127875:127978" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="128330:128401" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
-            <marker date="1451889404000" expanded="true" signature="128516:128607" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
-            <marker date="1451889404000" expanded="true" signature="129201:129301" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="129630:129694" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="129915:129979" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="130022:130114" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="131434:131526" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
-            <marker date="1451889404000" expanded="true" signature="131618:131732" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
-            <marker date="1451889404000" expanded="true" signature="131821:131979" placeholder="select id,ti... ${tablename('eso_sale_goods_option')}" />
-            <marker date="1451889404000" expanded="true" signature="132433:132548" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_option')}" />
-            <marker date="1451889404000" expanded="true" signature="132902:133006" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_param')}" />
-            <marker date="1451889404000" expanded="true" signature="133109:133286" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="133316:133408" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="135346:135501" placeholder="select isdef... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="135883:135999" placeholder="SELECT id, r... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="136170:136313" placeholder="select isdef... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="136741:136876" placeholder="select max(i... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="137362:137450" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="137736:137862" placeholder="SELECT plid,... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="139421:139511" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="139597:139681" placeholder="SELECT `tota... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="140177:140299" placeholder="SELECT `pric... ${tablename('eso_sale_order')}" />
-            <marker date="1451889404000" expanded="true" signature="140335:140438" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="140489:140643" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
-            <marker date="1451889404000" expanded="true" signature="140673:140739" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
-            <marker date="1451889404000" expanded="true" signature="143305:143418" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="144184:144285" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="144382:144488" placeholder="SELECT id FR... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="145058:145172" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="146059:146161" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="146193:146306" placeholder="select * fro... ${tablename('eso_sale_express')}" />
-            <marker date="1451889404000" expanded="true" signature="146404:146511" placeholder="SELECT id FR... ${tablename('eso_sale_dispatch')}" />
-            <marker date="1451889404000" expanded="true" signature="147103:147212" placeholder="SELECT * FRO... ${tablename('eso_sale_adv')}" />
-            <marker date="1451889404000" expanded="true" signature="147853:147942" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
-            <marker date="1451889404000" expanded="true" signature="148086:148188" placeholder="SELECT id FR... ${tablename('eso_sale_adv')}" />
-            <marker date="1451889404000" expanded="true" signature="149126:149205" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="150417:150503" placeholder="SELECT award... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="150813:150936" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="151321:151391" placeholder="SELECT id FR... ${tablename('eso_sale_credit_request')}" />
-            <marker date="1451889404000" expanded="true" signature="151665:151863" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="152220:152343" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="152639:152751" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="153065:153177" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="155054:155283" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
-            <marker date="1451889404000" expanded="true" signature="155349:155449" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="156073:156173" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="156379:156476" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="156567:156727" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="157513:157679" placeholder="select * fro... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="157844:157999" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="158117:158330" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="158386:158543" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="158660:158872" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="159784:159884" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="160141:160246" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="160339:160507" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="160544:160571" placeholder="SELECT `name... ${tablename('modules')}" />
-            <marker date="1451889404000" expanded="true" signature="161045:161165" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="161207:161307" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="161466:161555" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="161673:161820" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="161876:161967" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="162084:162230" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
-            <marker date="1451889404000" expanded="true" signature="162523:162592" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
-            <marker date="1451889404000" expanded="true" signature="163424:163534" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="163627:163800" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
-            <marker date="1451889404000" expanded="true" signature="163839:163866" placeholder="SELECT `name... ${tablename('modules')}" />
-            <marker date="1451889404000" expanded="true" signature="168245:168345" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
-            <marker date="1451889404000" expanded="true" signature="168944:169044" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="1693:1762" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="1892:1974" placeholder="SELECT id, n... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="3280:3360" placeholder="SELECT id, p... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="4436:4564" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="4977:5041" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="5172:5262" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
+            <marker date="1451889516000" expanded="true" signature="5350:5450" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
+            <marker date="1451889516000" expanded="true" signature="5534:5633" placeholder="select * fro... ${tablename('eso_sale_goods_param')}" />
+            <marker date="1451889516000" expanded="true" signature="5763:5853" placeholder="select * fro... ${tablename('eso_sale_goods_option')}" />
+            <marker date="1451889516000" expanded="true" signature="6515:6537" placeholder="..." />
+            <marker date="1451889516000" expanded="true" signature="14654:14774" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="14810:14878" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="17212:17361" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="17400:17494" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="17721:17861" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="17897:17987" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="19568:19690" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="19726:19795" placeholder="delete from " />
+            <marker date="1451889516000" expanded="true" signature="20731:20927" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="20969:21076" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="21228:21300" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="22787:22873" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="23187:23357" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="23399:23491" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="23641:23750" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="24203:24270" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="24395:24498" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="24589:24696" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="24848:24912" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="25170:25240" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="25695:25765" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="27193:27263" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="27758:27825" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="27950:28022" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="28099:28162" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="28212:28504" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="29686:29772" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="30086:30294" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="30336:30466" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="30616:30725" placeholder="select total... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="31178:31245" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="31370:31473" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="31564:31671" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="31823:31887" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="32145:32215" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="32670:32740" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="34168:34238" placeholder="SELECT trans... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="34733:34800" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="34925:34997" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="35074:35137" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="35187:35479" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="35683:35932" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="38193:38214" placeholder="SELECT COUNT... ${tablename('eso_sale_feedback')}" />
+            <marker date="1451889516000" expanded="true" signature="38292:38408" placeholder="SELECT * FRO... ${tablename('eso_sale_feedback')}" />
+            <marker date="1451889516000" expanded="true" signature="38605:38742" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="38979:39115" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="39556:39679" placeholder="select sum(t... ${tablename('eso_sale_cart')}" />
+            <marker date="1451889516000" expanded="true" signature="40541:40984" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="41025:41317" placeholder="select count... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="41618:41718" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="43653:43725" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="43983:44054" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="44184:44299" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="45696:45780" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="46006:46087" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="46130:46476" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="46991:47089" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="47249:47321" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="50336:50445" placeholder="SELECT from_... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="51424:51523" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="51863:51947" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="52179:52260" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="52304:52650" placeholder="SELECT sum((... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="52788:52911" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="53149:53254" placeholder="select count... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="53410:53865" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="53979:54407" placeholder="select co.is... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="54445:54520" placeholder="select id, r... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="54669:54739" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="54920:55004" placeholder="select commt... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="55251:55332" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="55362:55844" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="55886:56177" placeholder="SELECT count... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="56469:56574" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="56831:56966" placeholder="select id, b... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="57844:57915" placeholder="SELECT * FRO... ${tablename('eso_sale_rule')}" />
+            <marker date="1451889516000" expanded="true" signature="58069:58169" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="59105:59205" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="59578:59966" placeholder="SELECT o.cre... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="60004:60109" placeholder="select id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="60223:60328" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="60626:60699" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="60766:60865" placeholder="SELECT id FR... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="62139:62408" placeholder="select sale.... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="62623:62767" placeholder="select mid, ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="63004:63273" placeholder="select sale.... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="64008:64152" placeholder="select mid, ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="65030:65089" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="66650:66718" placeholder="select commi... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="67133:67192" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="67234:67346" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="67522:67638" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="68533:68648" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="68934:69007" placeholder="select realn... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="69065:69348" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="70265:70431" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="70460:70752" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="70883:71180" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="71223:71437" placeholder="select count... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="71685:71770" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="71828:72111" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="72173:72261" placeholder="select * fro... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="72317:72434" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="72583:72699" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="72801:72886" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="72988:73104" placeholder="select sum(c... ${tablename('eso_sale_commission')}" />
+            <marker date="1451889516000" expanded="true" signature="73209:73294" placeholder="select id, r... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="74131:74198" placeholder="select id,sh... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="74287:74357" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="74923:74987" placeholder="select share... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="75081:75151" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="76244:76312" placeholder="select commi... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="77058:77126" placeholder="select commi... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="77894:77962" placeholder="select commi... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="79521:79687" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="79716:80009" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="80139:80441" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="80484:80699" placeholder="select count... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="81339:81412" placeholder="select realn... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="81470:81707" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="82645:82811" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="82840:83134" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="83264:83562" placeholder="select o.sha... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="83656:83872" placeholder="select count... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="84485:84779" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="84851:85108" placeholder="SELECT c.*,m... ims_eso_sale_commission" />
+            <marker date="1451889516000" expanded="true" signature="85337:85534" placeholder="select og.id... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="88864:88935" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="90694:90768" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="91078:91220" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="91534:91751" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="91799:91946" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="92287:92532" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="92586:92760" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="93077:93199" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
+            <marker date="1451889516000" expanded="true" signature="93730:93896" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="94019:94196" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="94242:94334" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="94812:95016" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="95353:95427" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="95613:95802" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="96209:96283" placeholder="SELECT paren... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="98266:98408" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="98846:98983" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="99213:99338" placeholder="SELECT COUNT... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="99870:100012" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
+            <marker date="1451889516000" expanded="true" signature="100610:100674" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="100727:100800" placeholder="SELECT rule ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="100866:100966" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="101213:101285" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="103004:103104" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="104787:104950" placeholder="select mem.i... " />
+            <marker date="1451889516000" expanded="true" signature="104817:104876" placeholder="select count... ${$tablename}" />
+            <marker date="1451889516000" expanded="true" signature="105161:105261" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="105405:105632" placeholder="select mc_me... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="105497:105628" placeholder="select order... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="105668:106030" placeholder="select mc_me... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="105760:106026" placeholder="select mber.... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="105889:106025" placeholder="select order... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="106110:106174" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="106287:106470" placeholder="select mc_me... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="106379:106459" placeholder="select mber.... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="106534:106598" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="106719:106783" placeholder="select id fr... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="106947:107236" placeholder="select mc_me... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="107638:107735" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="107968:108055" placeholder="select marke... ${tablename('eso_sale_goods_option')}" />
+            <marker date="1451889516000" expanded="true" signature="108190:108355" placeholder="SELECT id, t... ${tablename('eso_sale_cart')}" />
+            <marker date="1451889516000" expanded="true" signature="109974:110091" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
+            <marker date="1451889516000" expanded="true" signature="110196:110311" placeholder="SELECT title... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="110385:110484" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="111418:111572" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="111787:111893" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="112602:112719" placeholder="SELECT * FRO... ${tablename('eso_sale_cart')}" />
+            <marker date="1451889516000" expanded="true" signature="112800:112939" placeholder="select id,th... ${tablename(&quot;eso_sale_goods&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="113010:113116" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="113876:114050" placeholder="select id,di... ${tablename(&quot;eso_sale_dispatch&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="114696:114762" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="116356:116433" placeholder="select title... ${tablename('eso_sale_goods_option')}" />
+            <marker date="1451889516000" expanded="true" signature="116727:116792" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="116845:116911" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="116964:117030" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="118486:118586" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="118767:118839" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="118923:119022" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="119148:119221" placeholder="SELECT `cred... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="120034:120098" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="120316:120422" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="120503:120664" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="120770:120836" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="122458:122548" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="122638:122710" placeholder="SELECT `titl... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="123152:123218" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="123808:123899" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="124327:124472" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="124600:124696" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="124747:124972" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="125039:125145" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="125364:125451" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="125873:125990" placeholder="SELECT * FRO... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="126047:126171" placeholder="SELECT COUNT... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="126310:126408" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="126460:126689" placeholder="SELECT g.id,... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="126765:126871" placeholder="select title... ${tablename(&quot;eso_sale_goods_option&quot;)}" />
+            <marker date="1451889516000" expanded="true" signature="127185:127272" placeholder="select id,di... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="127629:127753" placeholder="SELECT * FRO... ${tablename('eso_sale_share_history')}" />
+            <marker date="1451889516000" expanded="true" signature="127858:127961" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="128313:128384" placeholder="SELECT * FRO... ${tablename('eso_sale_rules')}" />
+            <marker date="1451889516000" expanded="true" signature="128499:128590" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
+            <marker date="1451889516000" expanded="true" signature="129184:129284" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="129613:129677" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="129898:129962" placeholder="SELECT commi... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="130005:130097" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="131417:131509" placeholder="select * fro... ${tablename('eso_sale_spec')}" />
+            <marker date="1451889516000" expanded="true" signature="131601:131715" placeholder="select * fro... ${tablename('eso_sale_spec_item')}" />
+            <marker date="1451889516000" expanded="true" signature="131804:131962" placeholder="select id,ti... ${tablename('eso_sale_goods_option')}" />
+            <marker date="1451889516000" expanded="true" signature="132416:132531" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_option')}" />
+            <marker date="1451889516000" expanded="true" signature="132885:132989" placeholder="SELECT * FRO... ${tablename('eso_sale_goods_param')}" />
+            <marker date="1451889516000" expanded="true" signature="133092:133269" placeholder="SELECT * FRO... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="133299:133391" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="135329:135484" placeholder="select isdef... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="135866:135982" placeholder="SELECT id, r... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="136153:136296" placeholder="select isdef... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="136724:136859" placeholder="select max(i... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="137345:137433" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="137719:137845" placeholder="SELECT plid,... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="139404:139494" placeholder="SELECT `good... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="139580:139664" placeholder="SELECT `tota... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="140160:140282" placeholder="SELECT `pric... ${tablename('eso_sale_order')}" />
+            <marker date="1451889516000" expanded="true" signature="140318:140421" placeholder="SELECT goods... ${tablename('eso_sale_order_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="140472:140626" placeholder="SELECT id, t... ${tablename('eso_sale_goods')}" />
+            <marker date="1451889516000" expanded="true" signature="140656:140722" placeholder="SELECT * FRO... ${tablename('eso_sale_address')}" />
+            <marker date="1451889516000" expanded="true" signature="143288:143401" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="144167:144268" placeholder="SELECT * FRO... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="144365:144471" placeholder="SELECT id FR... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="145041:145155" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="146042:146144" placeholder="SELECT * FRO... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="146176:146289" placeholder="select * fro... ${tablename('eso_sale_express')}" />
+            <marker date="1451889516000" expanded="true" signature="146387:146494" placeholder="SELECT id FR... ${tablename('eso_sale_dispatch')}" />
+            <marker date="1451889516000" expanded="true" signature="147086:147195" placeholder="SELECT * FRO... ${tablename('eso_sale_adv')}" />
+            <marker date="1451889516000" expanded="true" signature="147836:147925" placeholder="select * fro... ${tablename('eso_sale_adv')}" />
+            <marker date="1451889516000" expanded="true" signature="148069:148171" placeholder="SELECT id FR... ${tablename('eso_sale_adv')}" />
+            <marker date="1451889516000" expanded="true" signature="149109:149188" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="150400:150486" placeholder="SELECT award... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="150796:150919" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="151304:151374" placeholder="SELECT id FR... ${tablename('eso_sale_credit_request')}" />
+            <marker date="1451889516000" expanded="true" signature="151648:151846" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="152203:152326" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="152622:152734" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="153048:153160" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="155037:155266" placeholder="SELECT * FRO... ${tablename('eso_sale_credit_award')}" />
+            <marker date="1451889516000" expanded="true" signature="155332:155432" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="156056:156156" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="156362:156459" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="156550:156710" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="157496:157662" placeholder="select * fro... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="157827:157982" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="158100:158313" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="158369:158526" placeholder="SELECT COUNT... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="158643:158855" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="159767:159867" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="160124:160229" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="160322:160490" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="160527:160554" placeholder="SELECT `name... ${tablename('modules')}" />
+            <marker date="1451889516000" expanded="true" signature="161028:161148" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="161190:161290" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="161449:161538" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="161656:161803" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="161859:161950" placeholder="SELECT COUNT... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="162067:162213" placeholder="SELECT * FRO... ${tablename('mc_members')}" />
+            <marker date="1451889516000" expanded="true" signature="162506:162575" placeholder="SELECT * FRO... ${tablename('mc_mapping_fans')}" />
+            <marker date="1451889516000" expanded="true" signature="163407:163517" placeholder="SELECT COUNT... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="163610:163783" placeholder="SELECT * FRO... ${tablename('core_paylog')}" />
+            <marker date="1451889516000" expanded="true" signature="163822:163849" placeholder="SELECT `name... ${tablename('modules')}" />
+            <marker date="1451889516000" expanded="true" signature="168228:168328" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
+            <marker date="1451889516000" expanded="true" signature="168927:169027" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
           </folding>
         </state>
       </provider>
