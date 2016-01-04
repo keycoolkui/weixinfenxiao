@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>分销员注册</title>
+<title>{if $opp=='complate'}修改个人资料{else}{if $_GPC['agent']==0}绑定业务员{else if $_GPC['agent']==1}绑定医生{else}新用户注册{/if}{/if}</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../addons/eso_sale/style/css/style.css?r={php echo time()}"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
