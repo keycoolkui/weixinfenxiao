@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest versionCode="0.6">
     <identifie><![CDATA[style14]]></identifie>
-    <title><![CDATA[环球微信平台style14]]></title>
+    <title><![CDATA[刘老太微信平台style14]]></title>
 	<type><![CDATA[often]]></type>
-    <description><![CDATA[由环球微信平台提供默认微站模板套系]]></description>
-    <author><![CDATA[环球微信平台]]></author>
+    <description><![CDATA[由刘老太微信平台提供默认微站模板套系]]></description>
+    <author><![CDATA[刘老太微信平台]]></author>
     <url><![CDATA[http://univalsoft.com]]></url>
 	<sections><![CDATA[0]]></sections>
 	<settings>

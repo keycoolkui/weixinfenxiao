@@ -220,14 +220,14 @@
 				<label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">删除升级锁</label>
 				<div class="col-sm-10">
 					<input name="bae_delete_update" type="submit" value="删除" class="btn btn-primary span3" />
-					<div class="help-block">升级“环球微信平台”系统时，需要先删除升级锁，确保升级正常进行。</div>
+					<div class="help-block">升级“刘老太微信平台”系统时，需要先删除升级锁，确保升级正常进行。</div>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">删除安装锁</label>
 				<div class="col-sm-10">
 					<input name="bae_delete_install" type="submit" value="删除" class="btn btn-primary span3" />
-					<div class="help-block">重新安装“环球微信平台”系统时，需要先删除安装锁。</div>
+					<div class="help-block">重新安装“刘老太微信平台”系统时，需要先删除安装锁。</div>
 				</div>
 			</div>
 		</form>

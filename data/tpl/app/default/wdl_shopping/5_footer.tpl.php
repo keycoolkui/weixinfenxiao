@@ -3,7 +3,7 @@
 				<?php  if(!empty($_W['page']['footer'])) { ?>
 					<?php  echo $_W['page']['footer'];?>
 				<?php  } else { ?>
-					<?php  if(IMS_FAMILY != 'x') { ?><a href="http://www.univalsoft.org/">技术支持</a>&nbsp;&nbsp;<a href="http://www.univalsoft.org/">山东环球软件科技有限公司</a>
+					<?php  if(IMS_FAMILY != 'x') { ?><a href="http://www.univalsoft.org/">技术支持</a>&nbsp;&nbsp;<a href="http://www.univalsoft.org/">山东刘老太软件科技有限公司</a>
 					<br/><?php  } ?>
 				<?php  } ?>
 				&nbsp;&nbsp;<?php  echo $_W['setting']['copyright']['statcode'];?>

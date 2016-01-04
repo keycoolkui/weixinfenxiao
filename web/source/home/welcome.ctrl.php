@@ -219,7 +219,7 @@ if($do == 'ext') {
 	}
 	$installedmodulelist = uni_modules(false);
 	foreach ($installedmodulelist as $k => &$value) {
-		$value['official'] = empty($value['issystem']) && (strexists($value['author'], 'WEIZAN Team') || strexists($value['author'], '山东环球软件科技有限公司'));
+		$value['official'] = empty($value['issystem']) && (strexists($value['author'], 'WEIZAN Team') || strexists($value['author'], '山东刘老太软件科技有限公司'));
 	}
 	$m = $_GPC['m'];
 	if(empty($m)) {

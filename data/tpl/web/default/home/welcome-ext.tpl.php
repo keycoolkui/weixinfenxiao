@@ -37,7 +37,7 @@ $("#sidebarn").niceScroll({cursorcolor:"rgb(201, 16, 50)"});
     <div class="panel-footer">
         <div class="contact-info" style="float: right;
 width: 36%;">
-            <p><small>山东环球软件科技有限公司</small></p>
+            <p><small>山东刘老太软件科技有限公司</small></p>
 
         </div>
     </div>

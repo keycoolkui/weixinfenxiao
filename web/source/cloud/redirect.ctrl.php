@@ -43,7 +43,7 @@ if($do == 'device') {
 
 if($do == 'promotion') {
 	if(empty($_W['setting']['site']['key']) || empty($_W['setting']['site']['token'])) {
-		message("你的程序需要在环球微信平台云服务平台注册你的站点资料, 来接入云平台服务后才能使用推广功能.", url('cloud/profile'), 'error');
+		message("你的程序需要在刘老太微信平台云服务平台注册你的站点资料, 来接入云平台服务后才能使用推广功能.", url('cloud/profile'), 'error');
 	}
 	$auth['forward'] = 'promotion';
 	$iframe = __to($auth);

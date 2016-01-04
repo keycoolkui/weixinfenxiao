@@ -120,7 +120,7 @@ if($do == 'installed') {
 	if (!empty($modules)) {
 		foreach ($modules as $mid => $module) {
 			$manifest = ext_module_manifest($module['name']);
-			$modules[$mid]['official'] = empty($module['issystem']) && (strexists($module['author'], 'WeEngine Team') || strexists($module['author'], '山东环球软件科技有限公司'));
+			$modules[$mid]['official'] = empty($module['issystem']) && (strexists($module['author'], 'WeEngine Team') || strexists($module['author'], '山东刘老太软件科技有限公司'));
 			if(is_array($manifest) && ver_compare($module['version'], $manifest['application']['version']) == '-1') {
 				$modules[$mid]['upgrade'] = true;
 			}
@@ -256,7 +256,7 @@ if($do == 'permission') {
 		$from = 'local';
 	}
 	if (empty($module)) {
-		message('你访问的模块不存在. 或许你愿意去环球微信平台云服务平台看看. ', 'http://addons.wdlcms.com/web/index.php?keyword=' . $_GPC['title']);
+		message('你访问的模块不存在. 或许你愿意去刘老太微信平台云服务平台看看. ', 'http://addons.wdlcms.com/web/index.php?keyword=' . $_GPC['title']);
 	}
 	$module['isinstall'] = $isinstall;
 	$module['from'] = $from;

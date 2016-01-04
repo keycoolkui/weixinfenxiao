@@ -32,7 +32,7 @@
     <div class="panel-footer">
         <div class="contact-info" style="float: right;
 width: 36%;">
-            <p><small>山东环球软件科技有限公司</small></p>
+            <p><small>山东刘老太软件科技有限公司</small></p>
 
         </div>
     </div>
@@ -118,7 +118,7 @@ width: 36%;">
                     <i class="fa fa-user"></i> <?php  echo $_W['user']['username'];?></a>
             </li>
             <li class="xn-openable pull-right" >
-			<a href="http://univalsoft.com"  target="_blank"><i class="fa fa-comments-o"></i> <span class="hf2weafr225">环球微信平台</span></a>
+			<a href="http://univalsoft.com"  target="_blank"><i class="fa fa-comments-o"></i> <span class="hf2weafr225">刘老太微信平台</span></a>
             </li>
             <!-- END SIGN OUT -->
         </ul><?php  } ?>

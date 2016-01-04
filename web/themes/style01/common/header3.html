@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{php if(isset($title)) $_W['page']['title'] = $title}{if !empty($_W['page']['title'])}{$_W['page']['title']} - {/if}{if empty($_W['page']['copyright']['sitename'])}{if IMS_FAMILY != 'x'}环球微信平台 - 公众平台自助引擎 -  Powered by univaloft.com{/if}{else}{$_W['page']['copyright']['sitename']}{/if}</title>
-	<meta name="keywords" content="{if empty($_W['page']['copyright']['keywords'])}{if IMS_FAMILY != 'x'}环球微信平台,微信,微信公众平台,univalsoft.com{/if}{else}{$_W['page']['copyright']['keywords']}{/if}" />
-	<meta name="description" content="{if empty($_W['page']['copyright']['description'])}{if IMS_FAMILY != 'x'}公众平台自助引擎（www.univalsoft.com），环球微信平台，环球微信平台是一款免费开源的微信公众平台管理系统，是国内最完善移动网站及移动互联网技术解决方案。{/if}{else}{$_W['page']['copyright']['description']}{/if}" />
+	<title>{php if(isset($title)) $_W['page']['title'] = $title}{if !empty($_W['page']['title'])}{$_W['page']['title']} - {/if}{if empty($_W['page']['copyright']['sitename'])}{if IMS_FAMILY != 'x'}刘老太微信平台 - 公众平台自助引擎 -  Powered by univaloft.com{/if}{else}{$_W['page']['copyright']['sitename']}{/if}</title>
+	<meta name="keywords" content="{if empty($_W['page']['copyright']['keywords'])}{if IMS_FAMILY != 'x'}刘老太微信平台,微信,微信公众平台,univalsoft.com{/if}{else}{$_W['page']['copyright']['keywords']}{/if}" />
+	<meta name="description" content="{if empty($_W['page']['copyright']['description'])}{if IMS_FAMILY != 'x'}公众平台自助引擎（www.univalsoft.com），刘老太微信平台，刘老太微信平台是一款免费开源的微信公众平台管理系统，是国内最完善移动网站及移动互联网技术解决方案。{/if}{else}{$_W['page']['copyright']['description']}{/if}" />
 	<link rel="shortcut icon" href="{$_W['siteroot']}{$_W['config']['upload']['attachdir']}/{if !empty($_W['setting']['copyright']['icon'])}{$_W['setting']['copyright']['icon']}{else}images/global/wechat.jpg{/if}" />
 	<link href="./resource/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./resource/css/font-awesome.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@
 				<li{if $row['name'] == $solution['name']} class="active"{/if}><a href="{url 'home/welcome/solution' array('m' => $row['name'])}"><i class="fa fa-cog"></i>{$row['title']}</a></li>
 				{/loop}
 				{if IMS_FAMILY != 'x'}
-				<li><a href="http://univalsoft.com"><i class="fa fa-comment"></i>山东环球软件</a></li>
+				<li><a href="http://univalsoft.com"><i class="fa fa-comment"></i>山东刘老太软件</a></li>
 				<li><a href="http://univalsoft.com"><i class="fa fa-suitcase"></i>帮助</a></li>
 				{/if}
 			</ul>
@@ -80,7 +80,7 @@
 				{if !empty($_W['isfounder']) || empty($_W['setting']['permurls']['sections']) || in_array('setting', $_W['setting']['permurls']['sections'])}<li{if FRAME == 'setting'} class="active"{/if}><a href="{url 'home/welcome/setting'}"><i class="fa fa-umbrella"></i>参数设置</a></li>{/if}
 				{if FRAME == 'solution'}<li class="active"><a href="{url 'home/welcome/solution' array('m' => $m)}"><i class="fa fa-comments"></i>行业功能 - {$solution['title']}</a></li>{/if}
 				{if IMS_FAMILY != 'x'}
-				<li><a href="http://univalsoft.com"><i class="fa fa-comment"></i>山东环球软件</a></li>
+				<li><a href="http://univalsoft.com"><i class="fa fa-comment"></i>山东刘老太软件</a></li>
 				<li><a href="http://univalsoft.com"><i class="fa fa-suitcase"></i>帮助</a></li>
 				{/if}
 			</ul>

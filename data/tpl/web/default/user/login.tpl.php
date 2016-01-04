@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="./resource/wdlcms/favicon.ico">
-	<title><?php  if(!empty($_W['page']['title'])) { ?><?php  echo $_W['page']['title'];?> - <?php  } ?><?php  if(empty($_W['page']['copyright']['sitename'])) { ?>山东环球软件微信公众平台<?php  } else { ?><?php  echo $_W['page']['copyright']['sitename'];?><?php  } ?></title>
+	<title><?php  if(!empty($_W['page']['title'])) { ?><?php  echo $_W['page']['title'];?> - <?php  } ?><?php  if(empty($_W['page']['copyright']['sitename'])) { ?>山东刘老太软件微信公众平台<?php  } else { ?><?php  echo $_W['page']['copyright']['sitename'];?><?php  } ?></title>
 	<script src="./resource/wdlcms/jsold/require.js"></script>
 	<script src="./resource/wdlcms/jsold/app/config.js"></script>
 	<link rel="stylesheet" type="text/css" id="theme" href="./resource/wdlcms/css/theme-default.css"/>
@@ -51,7 +51,7 @@
 			</form>
 		</div>
 		<div align="center" style="color:#FFF">
-			&nbsp;<br><br><span>山东环球软件科技有限公司</span>&nbsp;
+			&nbsp;<br><br><span>山东刘老太软件科技有限公司</span>&nbsp;
 
 		</div>
 	</div>
