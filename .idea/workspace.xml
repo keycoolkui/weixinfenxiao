@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/detail.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/mobile/list.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/mobile/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/goods_des.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/goods_des.html" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -360,16 +359,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50735295">
+            <state vertical-scroll-proportion="-14.375">
               <caret line="105" column="71" selection-start-line="105" selection-start-column="71" selection-end-line="105" selection-end-column="71" />
               <folding>
                 <marker date="1451884614000" expanded="true" signature="2172:2262" placeholder="..." />
                 <marker date="1451884614000" expanded="true" signature="2276:2339" placeholder="..." />
                 <marker date="1451884614000" expanded="true" signature="2354:2479" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods_basic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_basic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="122.916664">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1434769168000" expanded="true" signature="9538:9552" placeholder="..." />
+                <marker date="1434769168000" expanded="true" signature="9723:9734" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods_des.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_des.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24264705">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -419,6 +441,7 @@
         <option value="$PROJECT_DIR$/framework/function/global.func.php" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/list.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/detail.html" />
+        <option value="$PROJECT_DIR$/addons/eso_sale/template/goods_des.html" />
       </list>
     </option>
   </component>
@@ -533,32 +556,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eso_sale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -658,21 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addons/eso_sale/manifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.041667">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/library/pdo/PDOStatement_mysql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="66.875">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/library/pdo/PDO_mysql.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1310,13 +1292,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/mobile/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50735295">
+        <state vertical-scroll-proportion="-14.375">
           <caret line="105" column="71" selection-start-line="105" selection-start-column="71" selection-end-line="105" selection-end-column="71" />
           <folding>
             <marker date="1451884614000" expanded="true" signature="2172:2262" placeholder="..." />
             <marker date="1451884614000" expanded="true" signature="2276:2339" placeholder="..." />
             <marker date="1451884614000" expanded="true" signature="2354:2479" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="122.916664">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1434769168000" expanded="true" signature="9538:9552" placeholder="..." />
+            <marker date="1434769168000" expanded="true" signature="9723:9734" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_des.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24264705">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
