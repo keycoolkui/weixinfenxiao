@@ -3,9 +3,9 @@ defined('IN_IA') or exit('Access Denied');
 
 $config = array();
 
-$config['db']['host'] = '127.0.0.1';
-$config['db']['username'] = 'root';
-$config['db']['password'] = '5618651';
+$config['db']['host'] = '115.28.191.81';
+$config['db']['username'] = 'weixinfenxiao';
+$config['db']['password'] = '123456';
 $config['db']['port'] = '3306';
 $config['db']['database'] = 'weixin_nsyouxian';
 $config['db']['charset'] = 'utf8';
