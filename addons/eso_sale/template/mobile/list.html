@@ -108,12 +108,10 @@ jQuery(document).ready(function($) {
 
     <div class="rec_panel">
               <ul class="rec_list_v2" id="m1">
-			  
-			  {loop $islist $item}
-			  
+			  {loop $rlist $item}
           <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="">
             <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
-              <div class="item_tag tag_red" style="display:">限时抢购
+              <div class="item_tag tag_red" style="display:">刘老太
                 <span yuyueid="" style="display:none"></span>
               </div>
               <div class="img"><img class="photo" usesrc="1" src="{$_W['attachurl']}{$item['xsthumb']}"></div>
@@ -130,25 +128,6 @@ jQuery(document).ready(function($) {
  
   </div>
    <div class="mod_space_gap"></div>
-    <div class="rec_panel">
-        <ul class="rec_list_v2" id="m1">
-            {loop $rlist $item}
-            <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="">
-                <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
-                    <div class="item_tag tag_red" style="display:">限时抢购
-                        <span yuyueid="" style="display:none"></span>
-                    </div>
-                    <div class="img"><img class="photo" usesrc="1" src="{$_W['attachurl']}{$item['xsthumb']}"></div>
-                    <div class="info">
-                        <div class="name">{$item['title']}</div>
-                        <div class="desc">{$item['description']}</div>
-                        <div class="price">￥{$item['marketprice']}</div>
-                    </div>
-                    <div class="buy"><span ptag="" class="btn">马上抢购</span></div>
-                </a>
-            </li>
-            {/loop}
-    </div>
 <!--页面底部-->
 ﻿<!--页面底部-->
     <div class="viewport">
