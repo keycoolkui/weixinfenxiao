@@ -106,12 +106,18 @@ jQuery(document).ready(function($) {
     <!-- banner轮播End -->
   </div>
 
+
+
+
+
     <div class="rec_panel">
               <ul class="rec_list_v2" id="m1">
-			  {loop $rlist $item}
+
+			  {loop $islist $item}
+
           <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="">
             <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
-              <div class="item_tag tag_red" style="display:">刘老太
+              <div class="item_tag tag_red" style="display:">限时抢购
                 <span yuyueid="" style="display:none"></span>
               </div>
               <div class="img"><img class="photo" usesrc="1" src="{$_W['attachurl']}{$item['xsthumb']}"></div>
@@ -127,7 +133,36 @@ jQuery(document).ready(function($) {
 		  {/loop}
  
   </div>
+
+
+
    <div class="mod_space_gap"></div>
+   <div class="os_panel">
+        <div class="hd">
+            <h3>首页推荐</h3>
+        </div>
+        <ul class="os_box_list" id="m2Con">
+        {loop $rlist $item}
+              <li>
+                  <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
+
+                      <div class="img"><img src="{$_W['attachurl']}{$item['thumb']}"  usesrc="1" alt=""></div>
+                      <div class="txt">{$item['title']}</div>
+                      <div class="desc">{$item['description']}</div>
+                      <div class="buy">
+                          <span class="price">￥{$item['marketprice']}</span>
+                          <span class="btn">马上抢购</span>
+                      </div>
+                  </a>
+              </li>
+        {/loop}
+       </ul>
+       <div class="os_list_more" id="btnMore2"  pi="1">
+        <a href="{php echo $this->mturl('listCategory')}">
+            <span  class="btn_more" ptag="37328.3.2" >查看更多&nbsp;&gt;&gt; </span>
+        </a>
+       </div>
+   </div>
 <!--页面底部-->
 ﻿<!--页面底部-->
     <div class="viewport">
