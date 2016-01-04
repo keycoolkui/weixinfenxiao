@@ -31,7 +31,7 @@ if($do == 'display') {
 				continue;
 			}
 			$module['shortcut'] = !empty($shortcuts[$module['name']]);
-			$module['official'] = empty($module['issystem']) && (strexists($module['author'], 'WEIZAN Team') || strexists($module['author'], '山东刘老太软件科技有限公司'));
+			$module['official'] = empty($module['issystem']) && (strexists($module['author'], 'WEIZAN Team') || strexists($module['author'], '山东刘老太食品科技有限公司'));
 						if($module['issystem']) {
 				$path = '../framework/builtin/' . $module['name'];
 			} else {
