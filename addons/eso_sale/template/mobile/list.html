@@ -106,10 +106,6 @@ jQuery(document).ready(function($) {
     <!-- banner轮播End -->
   </div>
 
-  
- 
-  
-
     <div class="rec_panel">
               <ul class="rec_list_v2" id="m1">
 			  
@@ -133,8 +129,6 @@ jQuery(document).ready(function($) {
 		  {/loop}
  
   </div>
-
-
   
    <div class="mod_space_gap"></div>
    <div class="os_panel">
@@ -143,18 +137,32 @@ jQuery(document).ready(function($) {
         </div>
         <ul class="os_box_list" id="m2Con">
         {loop $rlist $item}
-              <li>
-                  <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
+            <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="">
+                <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
+                    <div class="item_tag tag_red" style="display:">刘老太
+                        <span yuyueid="" style="display:none"></span>
+                    </div>
+                    <div class="img"><img class="photo" usesrc="1" src="{$_W['attachurl']}{$item['xsthumb']}"></div>
+                    <div class="info">
+                        <div class="name">{$item['title']}</div>
+                        <div class="desc">{$item['description']}</div>
+                        <div class="price">￥{$item['marketprice']}</div>
+                    </div>
+                    <div class="buy"><span ptag="" class="btn">马上抢购</span></div>
+                </a>
+            </li>
+              <!--<li>-->
+                  <!--<a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">-->
 
-                      <div class="img"><img src="{$_W['attachurl']}{$item['thumb']}"  usesrc="1" alt=""></div>
-                      <div class="txt">{$item['title']}</div>
-                      <div class="desc">{$item['description']}</div>
-                      <div class="buy">
-                          <span class="price">￥{$item['marketprice']}</span>
-                          <span class="btn">马上抢购</span>
-                      </div>
-                  </a>
-              </li>
+                      <!--<div class="img"><img src="{$_W['attachurl']}{$item['thumb']}"  usesrc="1" alt=""></div>-->
+                      <!--<div class="txt">{$item['title']}</div>-->
+                      <!--<div class="desc">{$item['description']}</div>-->
+                      <!--<div class="buy">-->
+                          <!--<span class="price">￥{$item['marketprice']}</span>-->
+                          <!--<span class="btn">马上抢购</span>-->
+                      <!--</div>-->
+                  <!--</a>-->
+              <!--</li>-->
         {/loop}
        </ul>
        <div class="os_list_more" id="btnMore2"  pi="1">
@@ -197,8 +205,7 @@ WeixinJSBridge.log(d.err_msg);  cb && cb(d.err_msg); });
 //通过微信分享   
 function WeiXinShareBtn() {   if (typeof WeixinJSBridge== "undefined")  
  { alert("请先通过微信xxxx"); }   else {   WeixinJSBridge.invoke('shareTimeline', 
- { "title": "微信资讯网", "link": "http://www.wechatstyle.com",   "desc": "欢迎关注微时代为您搜罗最新最尖端的微信资讯。
-内容包括微信公众平台开发、微信营销方案策略、微信操作指南，   好玩有趣的微信公众账号导航、微信游戏攻略、微信最新版本，
+ { "title": "微信资讯网", "link": "http://www.wechatstyle.com",   "desc": "欢迎关注微时代为您搜罗最新最尖端的微信资讯。内容包括微信公众平台开发、微信营销方案策略、微信操作指南，   好玩有趣的微信公众账号导航、微信游戏攻略、微信最新版本，
  最新功能等更多更全面的微信资讯信息。",  "img_url": "http://www.wechatstyle.com" });  
  }
  }
