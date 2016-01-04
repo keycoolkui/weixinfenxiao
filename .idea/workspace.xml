@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797bd03a-b54d-46ff-8e5e-d15164431eaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/site.php" afterPath="$PROJECT_DIR$/addons/eso_sale/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" afterPath="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="site.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49310872">
+            <state vertical-scroll-proportion="-6.3137255">
               <caret line="1575" column="98" selection-start-line="1575" selection-start-column="98" selection-end-line="1575" selection-end-column="98" />
               <folding>
                 <marker date="1451889516000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
@@ -322,11 +322,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fansmanager.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fansmanager.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5514706">
+              <caret line="79" column="63" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -409,8 +409,8 @@
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/list.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/mobile/register.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanager_addbusiness.html" />
-        <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" />
         <option value="$PROJECT_DIR$/addons/eso_sale/site.php" />
+        <option value="$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html" />
       </list>
     </option>
   </component>
@@ -987,17 +987,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49310872">
+        <state vertical-scroll-proportion="-6.3137255">
           <caret line="1575" column="98" selection-start-line="1575" selection-start-column="98" selection-end-line="1575" selection-end-column="98" />
           <folding>
             <marker date="1451889516000" expanded="true" signature="1200:1328" placeholder="SELECT * FRO... ${tablename('eso_sale_category')}" />
@@ -1288,6 +1280,14 @@
             <marker date="1451889516000" expanded="true" signature="168228:168328" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
             <marker date="1451889516000" expanded="true" signature="168927:169027" placeholder="SELECT * FRO... ${tablename('eso_sale_member')}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/fansmanager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5514706">
+          <caret line="79" column="63" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
