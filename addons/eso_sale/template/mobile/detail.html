@@ -151,16 +151,6 @@
         <p class="jx-pricem">市场价<strong style=" padding-left:15px;color:#BEBEBE">￥{$productprice}</strong></p>
     </div>
     {/if}
-    {if $member}
-    {if $member['flag']==1}
-    {if $commission !=0}
-    <div class="price clearfix">
-        <p class="jx-price">佣&nbsp;&nbsp;&nbsp;金<strong style=" padding-left:15px">{$commission}%</strong></p>
-
-    </div>
-    {/if}
-    {/if}
-    {/if}
 
     <form action="javascript:addToCart(6)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
         {if $from_user}
