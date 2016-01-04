@@ -390,7 +390,7 @@
         <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_des.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.24264705">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -1316,7 +1316,7 @@
     <entry file="file://$PROJECT_DIR$/addons/eso_sale/template/goods_des.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24264705">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding />
         </state>
       </provider>
