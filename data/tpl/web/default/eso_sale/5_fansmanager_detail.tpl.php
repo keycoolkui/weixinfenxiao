@@ -20,11 +20,17 @@
                         <label class="radio-inline" ><input type="radio" name="status" value="0" <?php  if($user['status']==0) { ?>checked<?php  } ?>>禁用</label>
                     </div>
                 </div>
+                <!--<div class="form-group">-->
+                    <!--<label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">是否为代理</label>-->
+                    <!--<div class="col-xs-12 col-sm-8 col-lg-9">-->
+                        <!--<label class="radio-inline"><input type="radio" name="flag" value="1" <?php  if($user['flag']==1) { ?>checked<?php  } ?>>是</label>-->
+                        <!--<label class="radio-inline" ><input type="radio" name="flag" value="0" <?php  if($user['flag']==0) { ?>checked<?php  } ?>>否</label>-->
+                    <!--</div>-->
+                <!--</div>-->
                 <div class="form-group">
-                    <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">是否为代理</label>
+                    <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">用户类型</label>
                     <div class="col-xs-12 col-sm-8 col-lg-9">
-                        <label class="radio-inline"><input type="radio" name="flag" value="1" <?php  if($user['flag']==1) { ?>checked<?php  } ?>>是</label>
-                        <label class="radio-inline" ><input type="radio" name="flag" value="0" <?php  if($user['flag']==0) { ?>checked<?php  } ?>>否</label>
+                        <?php  if($user['agent'] == 0) { ?>业务员 <?php  } else if($user['agent'] == 1) { ?> 医生<?php  } else { ?>普通用户<?php  } ?>
                     </div>
                 </div>
                 <div class="form-group">
