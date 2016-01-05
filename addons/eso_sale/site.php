@@ -4295,22 +4295,22 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		//return;
 		$oauth_openid = "eso_sale_t150122".$_W['uniacid'];
 		//是否为高级号
-		$serverapp = $_W['account']['level'];
-		if ($serverapp==2) {
-
-			$appid = $_W['account']['key'];
-			$secret = $_W['account']['secret'];
-
-			if(!empty($appid) && !empty($secret)){
-				checkauth();
-				$this->setmid($_W['fans']['from_user']);
-				return $_W['fans']['from_user'];
-			}
-		}else{
-			checkauth();
-			$this->setmid($_W['fans']['from_user']);
-			return $_W['fans']['from_user'];
-		}
+//		$serverapp = $_W['account']['level'];
+//		if ($serverapp==2) {
+//
+//			$appid = $_W['account']['key'];
+//			$secret = $_W['account']['secret'];
+//
+//			if(!empty($appid) && !empty($secret)){
+//				checkauth();
+//				$this->setmid($_W['fans']['from_user']);
+//				return $_W['fans']['from_user'];
+//			}
+//		}else{
+//			checkauth();
+//			$this->setmid($_W['fans']['from_user']);
+//			return $_W['fans']['from_user'];
+//		}
 
 
 		if (empty($_COOKIE[$oauth_openid])) {
