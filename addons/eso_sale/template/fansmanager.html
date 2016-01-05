@@ -35,7 +35,6 @@
             <!--</form>-->
         <!--</div>-->
     <!--</div>-->
-
     <div class="stat">
         <div class="stat-div">
             <div class="navbar navbar-static-top">
@@ -47,7 +46,6 @@
             <div class="sub-item" id="table-list">
                 <h4 class="sub-title" style="float:right;color:red;"><a href="">刷新</a></h4>
                 <h4 class="sub-title">用户名单</h4>
-
                 <div class="sub-content">
                     <table class="table table-hover">
                         <thead class="navbar-inner">
@@ -56,7 +54,7 @@
                             <th class="row-hover">手机号码</th>
                             <th class="row-hover">注册时间</th>
                             <th class="row-hover">状态</th>
-                            <th class="row-hover">还需充值</th>
+                            <!--<th class="row-hover">还需充值</th>-->
                             <!--<th class="row-hover">积分</th>-->
                             <th class="row-hover">点击统计</th>
                             <th class="row-hover">操作</th>
@@ -82,13 +80,13 @@
                                 <span class="label label-success">已审核</span>
                                 {/if}
                             </td>
-                            <td>
-                                {if empty($commission[$v['id']])}
-                                0
-                                {else}
-                                {php echo $commission[$v['id']]-$v['commission']}
-                                {/if}
-                            </td>
+                            <!--<td>-->
+                                <!--{if empty($commission[$v['id']])}-->
+                                <!--0-->
+                                <!--{else}-->
+                                <!--{php echo $commission[$v['id']]-$v['commission']}-->
+                                <!--{/if}-->
+                            <!--</td>-->
                             <!--<td>-->
                                 <!--{$v['credit1']}-->
                             <!--</td>-->
