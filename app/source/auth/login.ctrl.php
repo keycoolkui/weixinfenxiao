@@ -28,7 +28,7 @@ if(!$reregister && !empty($_W['member']) && (!empty($_W['member']['mobile']) || 
 	exit;
 }
 if($do == 'basic') {
-	//if($_W['ispost'] && $_W['isajax']) {
+	if($_W['ispost'] && $_W['isajax']) {
 		$post = $_GPC['__input'];
 		$mode = $post['mode'];
 		$modes = array('basic', 'code');
@@ -85,7 +85,7 @@ if($do == 'basic') {
 			exit('success');
 		}
 		exit('未知错误导致登陆失败');
-	//}
+	}
 	template('auth/login');
 	exit;
 } elseif($do == 'uc') {

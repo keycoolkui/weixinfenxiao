@@ -69,7 +69,7 @@ function checkauth() {
 		$result['act'] = 'redirect';
 		exit(json_encode($result));
 	} else {
-		header("location: " . url('auth/login', array('forward' => $forward)), true);
+		header("location: " . url('auth/oauth', array('forward' => $forward)), true);
 	}
 	exit;
 }
