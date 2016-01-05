@@ -1166,8 +1166,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$commissioningpe =0;
 		}
 
-
-
 		include $this->template('fshome');
 		//include $this->template('fansindex');
 
@@ -1206,6 +1204,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				'banktype'=>$_GPC['banktype'],
 				'alipay'=>$_GPC['alipay'],
 				'wxhao'=>$_GPC['wxhao'],
+				'agent'=>$_GPC['agent']
 			);
 			//$pro = pdo_fetch('SELECT mobile,id FROM '.tablename('eso_sale_member')." WHERE `uniacid` = :uniacid AND from_user=:from_user ",array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
 			/*
@@ -1216,9 +1215,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 					exit;
 				}
 			}*/
-
 			pdo_update('eso_sale_member',$data, array('id'=>$profile['id']));
-
 			//setcookie("$shareid", '');
 			echo 2;
 			exit;
