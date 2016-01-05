@@ -87,9 +87,7 @@
 		<a href="{php echo $this->mturl('detail', array('id' => $goods['id']))}"><img src="{$_W['attachurl']}{$goods['thumb']}" width="160"></a>
                 {/loop}
 	</div>
-	
         {/if}
-	 
 	<div class="myoder-total">
 		<span>共计：<span class="false"> {if $item['dispatchprice']<=0}
                         {$item['price']} 元
@@ -97,11 +95,9 @@
                         {$item['price']} 元 (运费 {$item['dispatchprice']} 元) 
                         {/if}</span></span>
 	 	<a href="{php echo $this->mturl('myorder', array('orderid' => $item['id'], 'op' => 'detail'))}" class="btn btn-success pull-right btn-sm" >订单详情</a>
-		 
 	</div>
 </div>
 {/loop}</div>
-
  <div class="wx_nav">
         <a href="{php echo $this->mturl('list')}" data-href="###" ptag="37080.1.1" class="nav_index">首页</a>
         <a href="{php echo $this->mturl('listCategory')}"  ptag="37080.1.2" class="nav_search" style="display:">分类</a>

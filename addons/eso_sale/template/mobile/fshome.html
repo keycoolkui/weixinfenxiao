@@ -185,11 +185,11 @@
 
 </div>{if $profile['agent'] != 2}
 	<a href="{php echo $this->mturl('myfans')}"><div class="jifen">{if $profile['agent'] == 0 }我发展的医生{else}我发展的会员{/if}<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
-	<a href="{php echo $this->mturl('fansorder')}"><div class="jifen">订单明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>
-    <a href="{php echo $this->mturl('commission')}"><div class="jifen">佣金明细<span style="float:right">{$profile['commission']}元</span></div></a>
+	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('fansorder')}"><div class="jifen">订单明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{else}<a href="{php echo $this->mturl('myorder')}"><div class="jifen">订单明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
+	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('commission')}"><div class="jifen">佣金明细<span style="float:right">{$profile['commission']}元</span></div></a>{/if}
 	{if $profile['agent'] == 0 }<a onclick="myQrcode();"><div class="jifen">绑定医生<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	{if $profile['agent'] == 1 }<a onclick="myQrcode();"><div class="jifen">我的二维码<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
-	<a href="{php echo $this->mturl('award')}"><div class="jifen">积分兑换<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>
+	<!--<a href="{php echo $this->mturl('award')}"><div class="jifen">积分兑换<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>-->
 	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('zhifu')}"><div class="jifen">打款记录<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	<!--<a href="{php echo $this->mturl('phb')}"><div class="jifen">代理排行榜<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>-->
 	<a href="{php echo $this->mturl('rule')}"><div class="jifen">帮助说明<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>
