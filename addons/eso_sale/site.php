@@ -4057,6 +4057,9 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileXoauth() {
 		global $_W,$_GPC;
 		$uniacid = $_W['uniacid'];//当前公众号ID
+
+
+
 		//用户不授权返回提示说明
 		if ($_GPC['code']=="authdeny"){
 			exit();
@@ -4077,7 +4080,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$state = $_GPC['state'];
 			//1为关注用户, 0为未关注用户
 
-
+			load()->func('communication') ;
 			//查询活动时间
 			$code = $_GPC['code'];
 			$oauth2_code = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$appid."&secret=".$secret."&code=".$code."&grant_type=authorization_code";
