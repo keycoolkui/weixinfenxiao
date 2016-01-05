@@ -1114,24 +1114,24 @@ class Eso_SaleModuleSite extends WeModuleSite {
 
 		$theone = pdo_fetch('SELECT * FROM '.tablename('eso_sale_rules')." WHERE  uniacid = :uniacid" , array(':uniacid' => $_W['uniacid']));
 
-		if($theone['promotertimes'] == 0 && $profile['flag'] == 0){
-			$isorder = pdo_fetch('SELECT * FROM '.tablename('eso_sale_order')." WHERE status= '3' AND  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
-			if(!$isorder){
-				message('您还未通过分销员审核，请先购买一笔订单才能成为分销员！', $this->mturl('list',array('mid'=>$id)), 'success');
-
-
-			}else{
-				pdo_update('eso_sale_member', array('flag' => 1), array('id' => $profile['id']));
-				$profile['flag'] = 1;
-			}
-		}else{
-			if(empty($profile['flagtime'])||$profile['flag']!=1)
-			{
-				pdo_update('eso_sale_member', array('flagtime'=>TIMESTAMP), array('id' => $profile['id']));
-			}
-			pdo_update('eso_sale_member', array('flag' => 1), array('id' => $profile['id']));
-
-		}
+//		if($theone['promotertimes'] == 0 && $profile['flag'] == 0){
+//			$isorder = pdo_fetch('SELECT * FROM '.tablename('eso_sale_order')." WHERE status= '3' AND  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
+//			if(!$isorder){
+//				message('您还未通过分销员审核，请先购买一笔订单才能成为分销员！', $this->mturl('list',array('mid'=>$id)), 'success');
+//
+//
+//			}else{
+//				pdo_update('eso_sale_member', array('flag' => 1), array('id' => $profile['id']));
+//				$profile['flag'] = 1;
+//			}
+//		}else{
+//			if(empty($profile['flagtime'])||$profile['flag']!=1)
+//			{
+//				pdo_update('eso_sale_member', array('flagtime'=>TIMESTAMP), array('id' => $profile['id']));
+//			}
+//			pdo_update('eso_sale_member', array('flag' => 1), array('id' => $profile['id']));
+//
+//		}
 
 
 		load()->model('mc');
