@@ -57,7 +57,7 @@
                             <th class="row-hover">注册时间</th>
                             <th class="row-hover">状态</th>
                             <th class="row-hover">还需充值</th>
-                            <th class="row-hover">积分</th>
+                            <!--<th class="row-hover">积分</th>-->
                             <th class="row-hover">点击统计</th>
                             <th class="row-hover">操作</th>
                         </tr>
@@ -89,9 +89,9 @@
                                 {php echo $commission[$v['id']]-$v['commission']}
                                 {/if}
                             </td>
-                            <td>
-                                {$v['credit1']}
-                            </td>
+                            <!--<td>-->
+                                <!--{$v['credit1']}-->
+                            <!--</td>-->
                             <td>
                                 {$v['clickcount']}
                             </td>
@@ -99,7 +99,7 @@
                                 <a href="{php echo $this->createWebUrl('fansmanager',array('op'=>'delete','id' => $v['id']));}" onclick="return confirm('确定要删除该粉丝吗？');">删除</a>
                                 <a href="{php echo $this->createWebUrl('fansmanager',array('op'=>'detail','id' => $v['id']));}">详情</a>
                                 <!--<a href="{php echo $this->createWebUrl('order',array('operation'=>'display','status'=>-1, 'shareid' => $v['id']));}">推广订单</a>-->
-                                <a href="{php echo $this->createWebUrl('fansmanager',array('op'=>'recharge','id' => $v['id']));}">充值</a>
+                                <!--<a href="{php echo $this->createWebUrl('fansmanager',array('op'=>'recharge','id' => $v['id']));}">充值</a>-->
                             </td>
                         </tr>
                         {/loop}
