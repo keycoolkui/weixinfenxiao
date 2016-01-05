@@ -4288,6 +4288,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 
 	private  function getFromUser() {
 		global $_W,$_GPC;
+		$appid = $_W['account']['key'];
 		if(false)
 		{
 			return $_W['fans']['from_user'];
