@@ -4296,6 +4296,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$oauth_openid = "eso_sale_t150122".$_W['uniacid'];
 		//是否为高级号
 		$serverapp = $_W['account']['level'];
+
+		var_dump($_W);exit;
 		if ($serverapp==2) {
 
 			$appid = $_W['account']['key'];

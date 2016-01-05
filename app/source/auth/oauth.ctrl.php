@@ -21,7 +21,7 @@ if(!empty($_W['oauth_account'])) {
 				$_SESSION['oauth_acid'] = $_W['oauth_account']['acid'];
 				
 				if (intval($_W['account']['level']) == 4) {
-										$fan = mc_fansinfo($oauth['openid']);
+					$fan = mc_fansinfo($oauth['openid']);
 					if (!empty($fan)) {
 						
 						$_SESSION['openid'] = $oauth['openid'];
@@ -58,8 +58,8 @@ if(!empty($_W['oauth_account'])) {
 								'unfollowtime' 	=> 0,
 								'tag' 			=> base64_encode(iserializer($userinfo))
 							);
-														if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
-																$default_groupid = pdo_fetchcolumn('SELECT groupid FROM ' .tablename('mc_groups') . ' WHERE uniacid = :uniacid AND isdefault = 1', array(':uniacid' => $_W['uniacid']));
+							if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
+									$default_groupid = pdo_fetchcolumn('SELECT groupid FROM ' .tablename('mc_groups') . ' WHERE uniacid = :uniacid AND isdefault = 1', array(':uniacid' => $_W['uniacid']));
 								$data = array(
 									'uniacid' 		=> $_W['uniacid'],
 									'email' 		=> md5($oauth['openid']).'@wdlcms.com',
