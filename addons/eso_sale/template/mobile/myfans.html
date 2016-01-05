@@ -65,9 +65,6 @@
 		<!--<div style="padding-top:10px;color:#FFF;font-size:1.6em;">说明：您转发的好友（包括下级代理转发）必须首次购买一笔订单，上面的人数才会增加！</div>-->
 	</div>
 <footer class="foot"><a>&copy; {$_W['account']['name']}</a></footer>
-
-
-
 </div>
 </div>
 <nav class="nav fn-clear">
@@ -77,7 +74,7 @@
 <script src="../addons/eso_sale/style/js/com.js"></script>
 </body>
 <?php
-    require_once IA_ROOT."/jssdk.class.php";
+    require_once MODULE_ROOT."/jssdk.class.php";
     $appid = $this->module['config']['appid'];
     $secret = $this->module['config']['secret'];
     $weixin = new jssdk($appid,$secret);
