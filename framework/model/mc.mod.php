@@ -498,7 +498,6 @@ function _mc_login($member) {
 				}
 			}
 			isetcookie('logout', '', -60000);
-			
 			return true;
 		}
 	}

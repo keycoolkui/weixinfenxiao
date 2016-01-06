@@ -34,9 +34,8 @@ if(!empty($_W['oauth_account'])) {
 						}
 						
 					} else {
-												$accObj = WeiXinAccount::create($_W['account']);
+						$accObj = WeiXinAccount::create($_W['account']);
 						$userinfo = $accObj->fansQueryInfo($oauth['openid']);
-						
 						if(!is_error($userinfo) && !empty($userinfo) && is_array($userinfo) && !empty($userinfo['subscribe'])) {
 							
 							$userinfo['nickname'] = stripcslashes($userinfo['nickname']);
@@ -87,7 +86,7 @@ if(!empty($_W['oauth_account'])) {
 						}
 					}
 				} else {
-										$mc_oauth_fan = _mc_oauth_fans($oauth['openid'], $_W['acid']);
+					$mc_oauth_fan = _mc_oauth_fans($oauth['openid'], $_W['acid']);
 					if (empty($mc_oauth_fan) && (!empty($_SESSION['openid']) || !empty($_SESSION['uid']))) {
 						$data = array(
 							'acid' 			=> $_W['acid'],
@@ -163,7 +162,6 @@ if(!empty($_W['oauth_account'])) {
 				/*var_dump(base64_decode($_SESSION['dest_url']));
 				exit();*/
 				$forward = base64_decode($_SESSION['dest_url']);
-
 				unset($_SESSION['dest_url']);
 				header('Location: ' . $_W['siteroot'] . 'app/index.php?' . $forward . '&wxref=mp.weixin.qq.com#wechat_redirect');
 				exit;

@@ -71,7 +71,7 @@ if($do == 'register') {
 		if(!empty($user)) {
 			exit('该用户名已被注册，请输入其他用户名。');
 		}
-				if(!empty($_W['openid'])) {
+		if(!empty($_W['openid'])) {
 			$fan = mc_fansinfo($_W['openid']);
 			if (!empty($fan)) {
 				$map_fans = $fan['tag'];
@@ -80,7 +80,6 @@ if($do == 'register') {
 				$map_fans = unserialize(base64_decode($_SESSION['userinfo']));
 			}
 		}
-		
 		if ($reregister) {
 			$data = array(
 				'salt' => random(8),

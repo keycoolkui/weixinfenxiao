@@ -1165,12 +1165,10 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		{
 			$commissioningpe =0;
 		}
-
 		include $this->template('fshome');
 		//include $this->template('fansindex');
 
 	}
-
 	// 粉丝注册
 	public function doMobileRegister(){
 		global $_W,$_GPC;
@@ -4034,8 +4032,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				message('请选择会员！',
 					create_url('site/entry', array('do' => 'charge','op'=>'list', 'm' => 'eso_sale','uniacid'=>$_W['uniacid'])), 'success');
 			}
-
-
 			$total = pdo_fetchcolumn("SELECT COUNT(*) FROM ".tablename('core_paylog')." WHERE  openid='".$mapping_fans['openid']."' AND `uniacid` = ".$_W['uniacid']);
 			$pager = pagination($total, $pindex, $psize);
 			$list = pdo_fetchall("SELECT * FROM ".tablename('core_paylog')." WHERE openid='".$mapping_fans['openid']."' AND uniacid=".$_W['uniacid']." ORDER BY plid DESC LIMIT " . ($pindex - 1) * $psize . "," . $psize);
@@ -4044,12 +4040,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			foreach($mlist as $k=>$v){
 				$mtype[$v['name']]=	$v['title'];
 			}
-
 			include $this->template('charge_post');
 		}
-
-
-
 	}
 
 
@@ -4057,8 +4049,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileXoauth() {
 		global $_W,$_GPC;
 		$uniacid = $_W['uniacid'];//当前公众号ID
-
-
 
 		//用户不授权返回提示说明
 		if ($_GPC['code']=="authdeny"){
@@ -4209,17 +4199,13 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		return $filename;
 	}
 
-
 	private  function getShareId() {
 		global $_W, $_GPC;
 		$from_user =	$this->getFromUser();
 		$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
-
-
 		if(empty($profile['shareid']))
 		{
-
 			if(!empty($_COOKIE[$shareid]))
 			{
 				if($profile['id']!=$_COOKIE[$shareid])
@@ -4237,17 +4223,14 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	}
 	private function setmid($fuser)
 	{
-		global $_W,$_GPC;
+		global $_W, $_GPC;
 		if (empty($_COOKIE["mid"])) {
 			$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $fuser));
 			if(!empty($profile['id']))
 			{
-
 				setcookie("mid",$profile['id']);
-
 			}
 		}
-
 	}
 
 	private function get_weixin_token() {
@@ -4261,7 +4244,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			}
 			$appid = $account['key'];
 			$secret = $account['secret'];
-
 
 			if (empty($appid) || empty($secret)) {
 				message('请填写公众号的appid及appsecret, (需要你的号码为微信服务号)！', create_url('account/post', array('id' => $account['uniacid'])), 'error');
@@ -4311,7 +4293,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				return $_W['fans']['from_user'];
 			}
 		}else{
-			checkauth();
+			// checkauth();
 			$this->setmid($_W['fans']['from_user']);
 			return $_W['fans']['from_user'];
 		}
