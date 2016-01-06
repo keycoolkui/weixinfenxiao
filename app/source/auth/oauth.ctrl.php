@@ -20,7 +20,7 @@ if(!empty($_W['oauth_account'])) {
 				
 				$_SESSION['oauth_openid'] = $oauth['openid'];
 				$_SESSION['oauth_acid'] = $_W['oauth_account']['acid'];
-				var_dump($_SESSION);exit;
+				var_dump(intval($_W['account']['level'])); exit;
 				
 				if (intval($_W['account']['level']) == 4) {
 					$fan = mc_fansinfo($oauth['openid']);
