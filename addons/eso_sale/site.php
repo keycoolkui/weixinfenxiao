@@ -4293,9 +4293,17 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				return $_W['fans']['from_user'];
 			}
 		}else{
+			$state = 'we7sid-'.$_W['session_id'];
+			$_SESSION['dest_url'] = base64_encode($_SERVER['QUERY_STRING']);
+
+			$url = $_W['siteroot'] . "app/index.php?i={$_W['uniacid']}&j={$_W['acid']}&c=auth&a=oauth&scope=userinfo";
+			$callback = urlencode($url);
+
+			$forward = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$_W['oauth_account']['key'].'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_userinfo&state='.$state.'#wechat_redirect';
+			header('Location: '.$forward);
+			exit;
 			//checkauth();
-			var_dump($_W);exit;
-			header("location: " . url('auth/oauth'), true);
+//			var_dump($_W);exit;
 //			mc_oauth_userinfo();
 			$this->setmid($_W['fans']['from_user']);
 			return $_W['fans']['from_user'];
