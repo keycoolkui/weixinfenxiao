@@ -1055,7 +1055,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 
 // 粉丝入口
 	public function doMobileFansIndex(){
-		global $_W,$_GPC;
 		$from_user =$this->getFromUser();
 		$uniacid=$_W['uniacid'];
 		$op = $_GPC['op']?$_GPC['op']:'display';
