@@ -1,4 +1,4 @@
 <?php
-var_dump(unserialize('acid|i:12;uniacid|i:7;oauth_openid|s:28:"oxscDwmEX3fgqWFbyymh0Dfpcplw";oauth_acid|s:2:"12";openid|s:28:"oxscDwmEX3fgqWFbyymh0Dfpcplw";uid|s:2:"13";'));
+var_dump(unserialize('a:3:{s:8:"focusreg";i:0;s:4:"item";s:6:"random";s:4:"type";s:8:"password";}'));
 ?>
 

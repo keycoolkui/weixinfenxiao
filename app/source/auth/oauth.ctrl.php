@@ -58,10 +58,10 @@ if(!empty($_W['oauth_account'])) {
 								'tag' 			=> base64_encode(iserializer($userinfo))
 							);
 							if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
-									$default_groupid = pdo_fetchcolumn('SELECT groupid FROM ' .tablename('mc_groups') . ' WHERE uniacid = :uniacid AND isdefault = 1', array(':uniacid' => $_W['uniacid']));
+								$default_groupid = pdo_fetchcolumn('SELECT groupid FROM ' .tablename('mc_groups') . ' WHERE uniacid = :uniacid AND isdefault = 1', array(':uniacid' => $_W['uniacid']));
 								$data = array(
 									'uniacid' 		=> $_W['uniacid'],
-									'email' 		=> md5($oauth['openid']).'@wdlcms.com',
+									'email' 		=> md5($oauth['openid']).'@cstrong.cn',
 									'salt' 			=> random(8),
 									'groupid' 		=> $default_groupid,
 									'createtime' 	=> TIMESTAMP,
