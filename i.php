@@ -1,4 +1,4 @@
 <?php
-var_dump(unserialize('a:2:{s:8:"activity";s:7:"credit1";s:8:"currency";s:7:"credit2";}'));
+var_dump(unserialize('acid|i:12;uniacid|i:7;oauth_openid|s:28:"oxscDwmEX3fgqWFbyymh0Dfpcplw";oauth_acid|s:2:"12";openid|s:28:"oxscDwmEX3fgqWFbyymh0Dfpcplw";uid|s:2:"13";'));
 ?>
 
