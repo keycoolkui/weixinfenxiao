@@ -15,6 +15,8 @@ if(!empty($_W['oauth_account'])) {
 
 		if(!is_error($response)) {
 			$oauth = @json_decode($response['content'], true);
+
+			var_dump($oauth);exit;
 			if(is_array($oauth) && !empty($oauth['openid'])) {
 				
 				$_SESSION['oauth_openid'] = $oauth['openid'];
