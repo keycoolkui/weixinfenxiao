@@ -4293,7 +4293,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				return $_W['fans']['from_user'];
 			}
 		}else{
-			checkauth();
+			// checkauth();
+			mc_oauth_userinfo();
 			$this->setmid($_W['fans']['from_user']);
 			return $_W['fans']['from_user'];
 		}
