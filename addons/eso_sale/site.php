@@ -4294,6 +4294,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			}
 		}else{
 			//checkauth();
+			var_dump($_W);exit;
 			header("location: " . url('auth/oauth'), true);
 //			mc_oauth_userinfo();
 			$this->setmid($_W['fans']['from_user']);
