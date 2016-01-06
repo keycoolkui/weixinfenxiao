@@ -4277,7 +4277,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$url = $_W['siteroot'] . "app/index.php?i={$_W['uniacid']}&j={$_W['acid']}&c=auth&a=oauth&scope=snsapi_base";
 			$callback = urlencode($url);
 
-			$forward = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$_W['oauth_account']['key'].'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_userinfo&state='.$state.'#wechat_redirect';
+			$forward = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$_W['oauth_account']['key'].'&redirect_uri='.$callback.'&response_type=code&scope=snsapi_base&state='.$state.'#wechat_redirect';
 			header('Location: '.$forward);
 			exit;
 		}
