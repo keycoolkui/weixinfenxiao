@@ -23,7 +23,6 @@ if(!empty($_W['oauth_account'])) {
 				
 				if (intval($_W['account']['level']) == 4) {
 					$fan = mc_fansinfo($oauth['openid']);
-					var_dump($fan);exit;
 					if (!empty($fan)) {
 						
 						$_SESSION['openid'] = $oauth['openid'];
@@ -37,7 +36,7 @@ if(!empty($_W['oauth_account'])) {
 					} else {
 						$accObj = WeiXinAccount::create($_W['account']);
 						$userinfo = $accObj->fansQueryInfo($oauth['openid']);
-
+						var_dump($userinfo);exit;
 						if(!is_error($userinfo) && !empty($userinfo) && is_array($userinfo) && !empty($userinfo['subscribe'])) {
 							
 							$userinfo['nickname'] = stripcslashes($userinfo['nickname']);
