@@ -16,7 +16,6 @@ if(!empty($_W['oauth_account'])) {
 		if(!is_error($response)) {
 			$oauth = @json_decode($response['content'], true);
 
-			var_dump($oauth);exit;
 			if(is_array($oauth) && !empty($oauth['openid'])) {
 				
 				$_SESSION['oauth_openid'] = $oauth['openid'];
@@ -38,6 +37,7 @@ if(!empty($_W['oauth_account'])) {
 					} else {
 						$accObj = WeiXinAccount::create($_W['account']);
 						$userinfo = $accObj->fansQueryInfo($oauth['openid']);
+						var_dump($userinfo);exit;
 						if(!is_error($userinfo) && !empty($userinfo) && is_array($userinfo) && !empty($userinfo['subscribe'])) {
 							
 							$userinfo['nickname'] = stripcslashes($userinfo['nickname']);
