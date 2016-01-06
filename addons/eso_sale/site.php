@@ -2977,18 +2977,12 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				$goods = pdo_fetchall("SELECT id, title, thumb, marketprice, unit, total,credit FROM " . tablename('eso_sale_goods') . " WHERE id IN ('" . implode("','", array_keys($ordergoods)) . "')");
 			}
 
-
-
 			//邮件提醒
 			if (!empty($this->module['config']['noticeemail'])) {
-
 				$address = pdo_fetch("SELECT * FROM " . tablename('eso_sale_address') . " WHERE id = :id", array(':id' => $order['addressid']));
-
 				$body = "<h3>购买商品清单</h3> <br />";
-
 				if (!empty($goods)) {
 					foreach ($goods as $row) {
-
 						//属性
 						// $option = pdo_fetch("select title,marketprice,weight,stock from " . tablename("eso_sale_goods_option") . " where id=:id limit 1", array(":id" => $ordergoods[$row['id']]['optionid']));
 						//if ($option) {
@@ -3474,6 +3468,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			}
 			$setting = uni_setting($_W['uniacid'], array('creditbehaviors'));
 			$credit = $setting['creditbehaviors']['currency'];
+			include $this->template('pay_focus');exit;
 			if ($params['type'] == $credit) {
 				message('支付成功！', $this->createMobileUrl('myorder'), 'success');
 			} else {
