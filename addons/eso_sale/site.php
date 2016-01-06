@@ -4269,7 +4269,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	private  function getFromUser() {
 		global $_W,$_GPC;
 		$appid = $_W['account']['key'];
-		var_dump($_SESSION);exit;
+		// var_dump($_SESSION);exit;
 		if(empty($_SESSION['uid'])){
 			$state = 'we7sid-'.$_W['session_id'];
 			$_SESSION['dest_url'] = base64_encode($_SERVER['QUERY_STRING']);
