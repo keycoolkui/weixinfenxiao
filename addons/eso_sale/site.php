@@ -1109,8 +1109,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			// $ydyy = $cfg['ydyy'];
 			// $_GPC['agent'] = 2;
 			// include $this->template('register');
-			$mid = $_COOKIE["eso_share_mid".$_W['uniacid']];
-			$mid = $mid ? $mid : 0;
+			$mid = $this->getShareId();
 			header("location: " . $this->mturl('register',array('agent'=>2, 'mid'=>$mid)));
 			exit;
 		}
@@ -1158,7 +1157,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$imgurl = "../addons/eso_sale/style/images/share/$imgname";
 			QRcode::png($qrcode_url, $imgurl, $errorCorrectionLevel, $matrixPointSize);
 			setCookie($share, $_W['uniacid']."share".$id, time()+3600*24);
-			setCookie("eso_share_mid".$_W['uniacid'], $id, time()+3600*24);
 		//}
 
 		$commtime = pdo_fetch("select commtime, promotertimes from ".tablename('eso_sale_rules')." where uniacid = ".$_W['uniacid']);
