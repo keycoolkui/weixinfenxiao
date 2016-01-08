@@ -1143,14 +1143,20 @@ class Eso_SaleModuleSite extends WeModuleSite {
 
 		$share = "eso_saleshareQrcode".$_W['uniacid'];
 		//if($_COOKIE[$share] != $_W['uniacid']."share".$id){
+
+		$qrcode_url = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));;
+		if($profile['agent'] == 0){
+			$qrcode_url = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>$profile['agent'] + 1, 'mid'=>$id));
+		}
+
 			include "mobile/phpqrcode.php";//引入PHP QR库文件
-			$value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
+			//$value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
 			// $value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>$profile['agent'] + 1, 'mid'=>$id));
 			$errorCorrectionLevel = "L";
 			$matrixPointSize = "4";
 			$imgname = "share$id.png";
 			$imgurl = "../addons/eso_sale/style/images/share/$imgname";
-			QRcode::png($value, $imgurl, $errorCorrectionLevel, $matrixPointSize);
+			QRcode::png($qrcode_url, $imgurl, $errorCorrectionLevel, $matrixPointSize);
 			setCookie($share, $_W['uniacid']."share".$id, time()+3600*24);
 			setCookie("eso_share_mid".$_W['uniacid'], $id, time()+3600*24);
 		//}
