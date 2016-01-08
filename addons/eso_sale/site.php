@@ -1103,12 +1103,15 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			exit;
 		}
 		if(empty($profile)){
-			$rule = pdo_fetch('SELECT * FROM '.tablename('eso_sale_rules')." WHERE `uniacid` = :uniacid ",array(':uniacid' => $_W['uniacid']));
-			$profile =fans_search($from_user, array('realname'));
-			$cfg = $this->module['config'];
-			$ydyy = $cfg['ydyy'];
-			$_GPC['agent'] = 2;
-			include $this->template('register');
+			// $rule = pdo_fetch('SELECT * FROM '.tablename('eso_sale_rules')." WHERE `uniacid` = :uniacid ",array(':uniacid' => $_W['uniacid']));
+			// $profile =fans_search($from_user, array('realname'));
+			// $cfg = $this->module['config'];
+			// $ydyy = $cfg['ydyy'];
+			// $_GPC['agent'] = 2;
+			// include $this->template('register');
+			$mid = $_GPC["eso_share_mid".$_W['uniacid']];
+			$mid = $mid ? $mid : 0;
+			header("location: " . $this->mturl('register',array('agent'=>2, 'mid'=>$mid)));
 			exit;
 		}
 
@@ -1141,14 +1144,15 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$share = "eso_saleshareQrcode".$_W['uniacid'];
 		//if($_COOKIE[$share] != $_W['uniacid']."share".$id){
 			include "mobile/phpqrcode.php";//引入PHP QR库文件
-			// $value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
-			$value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>$profile['agent'] + 1, 'mid'=>$id));
+			$value = $_W['siteroot']."app/".$this->mturl('list',array('mid'=>$id));
+			// $value = $_W['siteroot']."app/".$this->mturl('register',array('agent'=>$profile['agent'] + 1, 'mid'=>$id));
 			$errorCorrectionLevel = "L";
 			$matrixPointSize = "4";
 			$imgname = "share$id.png";
 			$imgurl = "../addons/eso_sale/style/images/share/$imgname";
 			QRcode::png($value, $imgurl, $errorCorrectionLevel, $matrixPointSize);
 			setCookie($share, $_W['uniacid']."share".$id, time()+3600*24);
+			setCookie("eso_share_mid".$_W['uniacid'], $id, time()+3600*24);
 		//}
 
 		$commtime = pdo_fetch("select commtime, promotertimes from ".tablename('eso_sale_rules')." where uniacid = ".$_W['uniacid']);
