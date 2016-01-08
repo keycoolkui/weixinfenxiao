@@ -1109,8 +1109,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			// $ydyy = $cfg['ydyy'];
 			// $_GPC['agent'] = 2;
 			// include $this->template('register');
-			var_dump($_GPC);exit;
-			$mid = $_GPC["eso_share_mid".$_W['uniacid']];
+			$mid = $_COOKIE["eso_share_mid".$_W['uniacid']];
 			$mid = $mid ? $mid : 0;
 			header("location: " . $this->mturl('register',array('agent'=>2, 'mid'=>$mid)));
 			exit;
