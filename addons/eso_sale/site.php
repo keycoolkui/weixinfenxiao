@@ -2841,9 +2841,9 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			//商品价格
 			$goodsprice = 0;
 			foreach ($allgoods as $row) {
-				if ($item['stock'] != -1 && $row['total'] > $item['stock']) {
-					message('抱歉，“' . $row['title'] . '”此商品库存不足！', $this->mturl('confirm'), 'error');
-				}
+//				if ($item['stock'] != -1 && $row['total'] > $item['stock']) {
+//					message('抱歉，“' . $row['title'] . '”此商品库存不足！', $this->mturl('confirm'), 'error');
+//				}
 				$goodsprice+= $row['totalprice'];
 			}
 			//运费
@@ -2924,7 +2924,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			}
 			//$this->setCartGoods(array());
 			//变更商品库存
-			$this->setOrderStock($orderid);
+			//$this->setOrderStock($orderid);
 
 			//
 			//  message('提交订单成功，现在跳转至付款页面...', $this->mturl('pay', array('orderid' => $orderid)), 'success');
