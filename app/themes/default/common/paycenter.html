@@ -402,7 +402,11 @@ require(['jquery', 'util'], function($, u){
 //		$('.pay-btn').hide();
 //		$('#'+$(this).val()+'-panel').show();
 //	});
-
+	$(function(){
+		$('.nav li').eq(0).click();
+		$('label.form-group .fa').removeClass('text-danger');
+		$(this).parents('.form-group').find('.fa').addClass('text-danger');
+	});
 	$('.nav li').click(function(){
 		if($(this).attr('data-id') == 'delivery') {
 			$('.pay-btn').hide();
