@@ -187,7 +187,7 @@
 </div>{if $profile['agent'] != 2}
 	<a href="{php echo $this->mturl('myfans')}"><div class="jifen">{if $profile['agent'] == 0 }我发展的会员{else}我发展的会员{/if}<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('fansorder')}"><div class="jifen">订单明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{else}<a href="{php echo $this->mturl('myorder')}"><div class="jifen">订单明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
-	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('commission')}"><div class="jifen">佣金明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
+	{if $profile['agent'] != 2}<a href="{php echo $this->mturl('commission')}"><div class="jifen">购买明细<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	{if $profile['agent'] == 0 }<a onclick="myQrcode();"><div class="jifen">绑定会员<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	{if $profile['agent'] == 1 }<a onclick="myQrcode();"><div class="jifen">我的二维码<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>{/if}
 	<!--<a href="{php echo $this->mturl('award')}"><div class="jifen">积分兑换<img src="../addons/eso_sale/style/images/jiantou.png" align="right" /></div></a>-->
