@@ -2871,7 +2871,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				'goodstype' => intval($cart['type']),
 				'remark' => $_GPC['remark'],
 				'addressid' => $address['id'],
-				'createtime' => TIMESTAMP,								'shareid' => $shareId
+				'createtime' => TIMESTAMP,
+				'shareid' => $shareId
 			);
 			pdo_insert('eso_sale_order', $data);
 			$orderid = pdo_insertid();
@@ -3318,6 +3319,10 @@ class Eso_SaleModuleSite extends WeModuleSite {
 				'city' => $_GPC['city'],
 				'area' => $_GPC['area'],
 				'address' => $_GPC['address'],
+				'hospital' => $_GPC['hospital'],
+				'room' => $_GPC['room'],
+				'bed' => $_GPC['bed']
+
 			);
 			if (empty($_GPC['realname']) || empty($_GPC['mobile']) || empty($_GPC['address'])) {
 				message('请输完善您的资料！');
