@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>佣金明细</title>
+<title>销售明细</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../addons/eso_sale/style/css/oder.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
@@ -72,8 +72,8 @@
 	<div class="ranking-body" style="padding-top:0px;">
 				{if $opp!='more'}
 				<div id="ziliao">
-		<div class="gengai" align="center"><a href="#">可结：{$commissioningpe}元</a></div>
-		<div class="gengai" align="center"><a href="#">已结：{$commissioned}元</a></div>
+		<div class="gengai" align="center"><a href="#">可结：{$commissioningpe}分</a></div>
+		<div class="gengai" align="center"><a href="#">已结：{$commissioned}分</a></div>
 	</div>
 					
 		<div style="padding-bottom:10px;">
@@ -84,7 +84,7 @@
 				<div class="ranking-list" >
 			
 					{if empty($list)}
-					<p style="color:#fff; font-size:1.6em;">暂无佣金记录！如果上方的可结佣金大于0，请点击最下方的佣金结算申请，通过审核后，就会显示一条佣金记录！</p><p style="color:#fff; font-size:1.6em;">如果可结之前大于0，申请结算佣金后变成0，但是已结佣金还是没有增加的情况是因为您的佣金申请已经通过，但是商家还未给您进行佣金结算操作的原因，请联系商家给您进行佣金结算操作！</p>
+					<!--<p style="color:#fff; font-size:1.6em;">暂无佣金记录！如果上方的可结佣金大于0，请点击最下方的佣金结算申请，通过审核后，就会显示一条佣金记录！</p><p style="color:#fff; font-size:1.6em;">如果可结之前大于0，申请结算佣金后变成0，但是已结佣金还是没有增加的情况是因为您的佣金申请已经通过，但是商家还未给您进行佣金结算操作的原因，请联系商家给您进行佣金结算操作！</p>-->
 					{else}
 			<div class="tr">
 				<div class="th th1">时间<span class="arrow arrow-bottom"></span></div>
@@ -117,7 +117,7 @@
 			{/if}
 		</div>
 		
-			<div style="padding-top:10px;color:#FFF;font-size:1.6em;">名词说明：<br>1、【可结】指的是您推荐的订单已经完成，您可以获得的预估佣金！<br>2、【已结】指通过佣金结算审核后的佣金记录，此记录是您获得的所有佣金总和（包括已打款和未打款）！<br>3、【出现已结为0，但是已结却没有增加的原因是，当前申请的那部分佣金已经通过审核，但是商家还未进行佣金结算操作的原因，请联系商家进行佣金结算操作即可！】</div>
+			<!--<div style="padding-top:10px;color:#FFF;font-size:1.6em;">名词说明：<br>1、【可结】指的是您推荐的订单已经完成，您可以获得的预估佣金！<br>2、【已结】指通过佣金结算审核后的佣金记录，此记录是您获得的所有佣金总和（包括已打款和未打款）！<br>3、【出现已结为0，但是已结却没有增加的原因是，当前申请的那部分佣金已经通过审核，但是商家还未进行佣金结算操作的原因，请联系商家进行佣金结算操作即可！】</div>-->
 		
 		{if $opp != 'more'}
 					{if $total > 10}
