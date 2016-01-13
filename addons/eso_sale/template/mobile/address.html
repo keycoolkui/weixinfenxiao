@@ -167,8 +167,9 @@
                 $('#address').val('');
                 cascdeInit('','','');
             }
-            location.href = "{php echo $this->createMobileUrl('confirm')}";
-            $('#addAddressPanel').hide();
+            // $('#addAddressPanel').hide();
+            location.href = document.referrer;
+
         }, 'json');
 
     }
