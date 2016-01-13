@@ -52,8 +52,8 @@
 		<div class="ranking-list" >
 			<div class="tr">
 				<div class="th th1">时间<span class="arrow arrow-bottom"></span></div>
-				<div class="th th2">订单号<span class="arrow arrow-bottom"></span></div>
-				<div class="th th3">预估佣金<span class="arrow arrow-bottom"></span></div>
+				<div class="th th2">地址<span class="arrow arrow-bottom"></span></div>
+				<div class="th th3">金额<span class="arrow arrow-bottom"></span></div>
 				<div class="th th4">状态<span class="arrow arrow-bottom"></span></div>
 			</div>
 
@@ -61,9 +61,9 @@
 			<div class="tr">
 			
 				<div class="td r">{php echo date('Y-m-d', $v['createtime'])}</div>
-				<div class="td td2"><a style="color:#FFF" href="#">{$v['ordersn']}</a></div>
+				<div class="td td2"><a style="color:#FFF" href="#">{$v['address']}</a></div>
 				
-				<div class="td td3">{php echo $v['commission']*$v['total']}</div>
+				<div class="td td3"><!--{php echo $v['commission']*$v['total']}-->{$v['price']}</div>
 				
 				<div class="td td4">	{if $v['status']==-1}
 								取消

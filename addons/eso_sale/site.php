@@ -1517,7 +1517,6 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$psize = 20;
 //		$list = pdo_fetchall("SELECT o.createtime,o.ordersn,o.status,o.addressid ,o.price, g.commission, g.total, g.goodsid FROM " . tablename('eso_sale_order') . " as o left join ".tablename('eso_sale_order_goods')." as g on o.id = g.orderid and o.uniacid = g.uniacid WHERE o.shareid = ".$id." and o.uniacid = ".$_W['uniacid']." and o.from_user<>'".$profile['from_user']."' ORDER BY o.createtime DESC LIMIT " . ($pindex - 1) * $psize . ',' . $psize);
 		$list = pdo_fetchall("SELECT o.createtime,o.ordersn,o.status,o.addressid ,o.price, g.commission, g.total, g.goodsid, a.realname,a.province,a.city, a.area,a.address  FROM " . tablename('eso_sale_order') . " as o left join ".tablename('eso_sale_order_goods')." as g on o.id = g.orderid and o.uniacid = g.uniacid left join ".tablename('eso_sale_address')." as a on o.addressid=a.id  WHERE o.shareid = ".$id." and o.uniacid = ".$_W['uniacid']." and o.from_user<>'".$profile['from_user']."' ORDER BY o.createtime DESC LIMIT " . ($pindex - 1) * $psize . ',' . $psize);
-		var_dump($list);exit;
 		$goods = pdo_fetchall("select id, title from ".tablename('eso_sale_goods'). " where uniacid = ".$_W['uniacid']. " and status = 1");
 		$good = array();
 		foreach($goods as $g){
