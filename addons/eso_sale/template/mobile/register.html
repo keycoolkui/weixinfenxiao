@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>{if $opp=='complate'}修改个人资料{else}{if $_GPC['agent']==0}绑定业务员{else if $_GPC['agent']==1}绑定医生{else}新用户注册{/if}{/if}</title>
+<title>{if $opp=='complate'}修改个人资料{else}{if $_GPC['agent']==0}绑定业务员{else if $_GPC['agent']==1}会员注册{else}新用户注册{/if}{/if}</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../addons/eso_sale/style/css/style.css?r={php echo time()}"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
@@ -15,7 +15,7 @@
 <body>
 <section class="main animated fadeInDown">
 	<div class="main-box">
-		<h1 style="color:RGB(0,180,181);font-size: 32px; text-align: center;">{if $opp=='complate'}修改个人资料{else}{if $_GPC['agent']==0}绑定业务员{else if $_GPC['agent']==1}绑定医生{else}新用户注册{/if}{/if}</h1>
+		<h1 style="color:RGB(0,180,181);font-size: 32px; text-align: center;">{if $opp=='complate'}修改个人资料{else}{if $_GPC['agent']==0}绑定业务员{else if $_GPC['agent']==1}会员注册{else}新用户注册{/if}{/if}</h1>
 		<p class="rb-row"><input type="text" id="realname" placeholder="姓名" class="input" value="{$profile['realname']}"/></p>
 		<p class="rb-row"><input type="tel" id="mobile" placeholder="手机" class="input" value="{$profile['mobile']}"/></p>
 		<!--<p class="rb-row"><input type="password" id="password" placeholder="密码" class="input" value="{$profile['pwd']}"/></p>-->
