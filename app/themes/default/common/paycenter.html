@@ -248,42 +248,42 @@
 			</div>
 			{/if}
 		</div>
-		<div class="tab-pane animated" id="guarantee">
-			<div class="alert alert-info">
-				<div class="row text-center">
-					<div class="col-xs-4">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-adjust fa-stack-2x"></i>
-							<i class="fa fa-rotate-90 fa-adjust fa-stack-2x"></i>
-						</span>
-						<div class="help-block">付款给微动力</div>
-					</div>
-					<div class="col-xs-4">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-adjust fa-stack-2x"></i>
-						</span>
-						<div class="help-block">发货/您确认收货</div>
-					</div>
-					<div class="col-xs-4">
-						<span class="fa-stack fa-2x">
-							<i class="fa fa-circle-o fa-stack-2x"></i>
-						</span>
-						<div class="help-block">微动力付款给商家</div>
-					</div>
-				</div>
-			</div>
-			<div class="alert alert-info clearfix">
-				<label class="form-group">
-					<div class="col-xs-1">
-						<input type="radio" name="type" value="alipay" checked>
-					</div>
-					<div class="col-xs-11">
-						担保支付
-						<div class="help-block">还未支持</div>
-					</div>
-				</label>
-			</div>
-		</div>
+		<!--<div class="tab-pane animated" id="guarantee">-->
+			<!--<div class="alert alert-info">-->
+				<!--<div class="row text-center">-->
+					<!--<div class="col-xs-4">-->
+						<!--<span class="fa-stack fa-2x">-->
+							<!--<i class="fa fa-adjust fa-stack-2x"></i>-->
+							<!--<i class="fa fa-rotate-90 fa-adjust fa-stack-2x"></i>-->
+						<!--</span>-->
+						<!--<div class="help-block">付款给微动力</div>-->
+					<!--</div>-->
+					<!--<div class="col-xs-4">-->
+						<!--<span class="fa-stack fa-2x">-->
+							<!--<i class="fa fa-adjust fa-stack-2x"></i>-->
+						<!--</span>-->
+						<!--<div class="help-block">发货/您确认收货</div>-->
+					<!--</div>-->
+					<!--<div class="col-xs-4">-->
+						<!--<span class="fa-stack fa-2x">-->
+							<!--<i class="fa fa-circle-o fa-stack-2x"></i>-->
+						<!--</span>-->
+						<!--<div class="help-block">微动力付款给商家</div>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="alert alert-info clearfix">-->
+				<!--<label class="form-group">-->
+					<!--<div class="col-xs-1">-->
+						<!--<input type="radio" name="type" value="alipay" checked>-->
+					<!--</div>-->
+					<!--<div class="col-xs-11">-->
+						<!--担保支付-->
+						<!--<div class="help-block">还未支持</div>-->
+					<!--</div>-->
+				<!--</label>-->
+			<!--</div>-->
+		<!--</div>-->
 	</div>
 </div>
 
@@ -367,33 +367,65 @@
 	<button type="submit" name="submit" value="yes" class="btn btn-primary btn-block btn-lg disabled">请选择支付方式</button>
 </div>
 <script type="text/javascript">
-	require(['jquery', 'util'], function($, u){
-		$('input[name="type"]').click(function(){
-			$('label.form-group .fa').removeClass('text-danger');
-			$(this).parents('.form-group').find('.fa').addClass('text-danger');
-			$('.pay-btn').hide();
-			$('#'+$(this).val()+'-panel').show();
-		});
+//	require(['jquery', 'util'], function($, u){
+//		$('input[name="type"]').click(function(){
+//			$('label.form-group .fa').removeClass('text-danger');
+//			$(this).parents('.form-group').find('.fa').addClass('text-danger');
+//			$('.pay-btn').hide();
+//			$('#'+$(this).val()+'-panel').show();
+//		});
+//
+//		$('.nav li').click(function(){
+//			if($(this).attr('data-id') == 'delivery') {
+//				$('#coupon').hide();
+//				$('#order_card').hide();
+//				$('.pay-btn input[name="coupon_id"]').val(0);
+//			} else {
+//				$('#coupon').show();
+//			}
+//			$('.pay-btn').hide();
+//			$('#default-panel').show();
+//			$('input[name="type"]').attr('checked',false);
+//		});
+//		if ($('#direct .form-group').size() == '1') {
+//			$('#direct input:radio[name=type]').trigger('click');
+//		}
+//		if ($('#direct .form-group').size() == '0') {
+//			$('.nav-tabs a[href="#collect"]').trigger('click');
+//			$('input:radio[value=delivery]').trigger('click');
+//		}
+//	});
+require(['jquery', 'util'], function($, u){
+//	$('input[name="type"]').click(function(){
+//		$('label.form-group .fa').removeClass('text-danger');
+//		$(this).parents('.form-group').find('.fa').addClass('text-danger');
+//		$('.pay-btn').hide();
+//		$('#'+$(this).val()+'-panel').show();
+//	});
 
-		$('.nav li').click(function(){
-			if($(this).attr('data-id') == 'delivery') {
-				$('#coupon').hide();
-				$('#order_card').hide();
-				$('.pay-btn input[name="coupon_id"]').val(0);
-			} else {
-				$('#coupon').show();
-			}
+	$('.nav li').click(function(){
+		if($(this).attr('data-id') == 'delivery') {
+			$('#delivery-panel').show();
 			$('.pay-btn').hide();
-			$('#default-panel').show();
-			$('input[name="type"]').attr('checked',false);
-		});
-		if ($('#direct .form-group').size() == '1') {
-			$('#direct input:radio[name=type]').trigger('click');
+			$('#coupon').hide();
+			$('#order_card').hide();
+			$('.pay-btn input[name="coupon_id"]').val(0);
+		} else {
+			// $('#coupon').show();
+			$('#wechat-panel').show();
+			$('.pay-btn').hide();
 		}
-		if ($('#direct .form-group').size() == '0') {
-			$('.nav-tabs a[href="#collect"]').trigger('click');
-			$('input:radio[value=delivery]').trigger('click');
-		}
+//		$('.pay-btn').hide();
+//		$('#default-panel').show();
+//		$('input[name="type"]').attr('checked',false);
 	});
+	if ($('#direct .form-group').size() == '1') {
+		$('#direct input:radio[name=type]').trigger('click');
+	}
+	if ($('#direct .form-group').size() == '0') {
+		$('.nav-tabs a[href="#collect"]').trigger('click');
+		$('input:radio[value=delivery]').trigger('click');
+	}
+});
 </script>
 {template 'common/footer'}
