@@ -404,7 +404,7 @@ require(['jquery', 'util'], function($, u){
 //	});
 	$(function(){
 		$('.nav li').eq(0).click();
-		$('label.form-group .fa').removeClass('text-danger');
+		$('label.form-group .fa').addClass('text-danger');
 		$(this).parents('.form-group').find('.fa').addClass('text-danger');
 	});
 	$('.nav li').click(function(){
@@ -423,13 +423,13 @@ require(['jquery', 'util'], function($, u){
 //		$('#default-panel').show();
 //		$('input[name="type"]').attr('checked',false);
 	});
-	if ($('#direct .form-group').size() == '1') {
-		$('#direct input:radio[name=type]').trigger('click');
-	}
-	if ($('#direct .form-group').size() == '0') {
-		$('.nav-tabs a[href="#collect"]').trigger('click');
-		$('input:radio[value=delivery]').trigger('click');
-	}
+//	if ($('#direct .form-group').size() == '1') {
+//		$('#direct input:radio[name=type]').trigger('click');
+//	}
+//	if ($('#direct .form-group').size() == '0') {
+//		$('.nav-tabs a[href="#collect"]').trigger('click');
+//		$('input:radio[value=delivery]').trigger('click');
+//	}
 });
 </script>
 {template 'common/footer'}
