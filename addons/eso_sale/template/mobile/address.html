@@ -113,10 +113,6 @@
             alert('请输入正确的手机号码！');
             return false;
         }
-        if (!address) {
-            alert('请输入您的详细地址！');
-            return false;
-        }
         if (!hospital){
             alert('请输入医院');
             return false;
@@ -129,6 +125,7 @@
             alert("请输入床号");
             return false;
         }
+        address = hospital + room + bed;
         tip("正在处理数据...");
         $.post("{php echo $this->createMobileUrl('address')}", {
             'op' : 'post',
