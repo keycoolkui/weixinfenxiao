@@ -162,13 +162,12 @@
                     $(".address_item").removeClass("shopcart-main1").addClass("shopcart-main");
                     $('#myaddress').append($(html + html1 + html2));
                 }
-                location.href = "{php echo $this->createMobileUrl('confirm')}";
-                
                 $('#realname').val('');
                 $('#mobile').val('');
                 $('#address').val('');
                 cascdeInit('','','');
             }
+            location.href = "{php echo $this->createMobileUrl('confirm')}";
             $('#addAddressPanel').hide();
         }, 'json');
 
