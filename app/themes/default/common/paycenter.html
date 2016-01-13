@@ -405,15 +405,15 @@ require(['jquery', 'util'], function($, u){
 
 	$('.nav li').click(function(){
 		if($(this).attr('data-id') == 'delivery') {
-			$('#delivery-panel').show();
 			$('.pay-btn').hide();
+			$('#delivery-panel').show();
 			$('#coupon').hide();
 			$('#order_card').hide();
 			$('.pay-btn input[name="coupon_id"]').val(0);
 		} else {
 			// $('#coupon').show();
-			$('#wechat-panel').show();
 			$('.pay-btn').hide();
+			$('#wechat-panel').show();
 		}
 //		$('.pay-btn').hide();
 //		$('#default-panel').show();
