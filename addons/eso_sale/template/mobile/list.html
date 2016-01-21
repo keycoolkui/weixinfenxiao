@@ -136,9 +136,8 @@ jQuery(document).ready(function($) {
     <div class="mod_space_gap"></div>
     <div class="rec_panel">
         <ul class="rec_list_v2" id="m2">
-
             {loop $rlist $item}
-            <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="" style="margin-top: 10px; padding-bottom: 10px;">
+            <li status="1" title="{$item['title']}" aid="" qnum="" ynum="" skuid="" style="margin-top: 10px;">
                 <a href="{php echo $this->mturl('detail', array('id' => $item['id']))}" class="item">
                     <div class="item_tag tag_red">刘老太
                         <span yuyueid="" style="display:none"></span>
@@ -153,7 +152,7 @@ jQuery(document).ready(function($) {
                 </a>
             </li>
             {/loop}
-
+        </ul>
     </div>
 <!--页面底部-->
 ﻿<!--页面底部-->
