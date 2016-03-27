@@ -3179,6 +3179,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileDetail() {
 		global $_W, $_GPC;
 
+		var_dump($_W['account']['access_token']);exit;
+
 		var_dump($_W['openid']);exit;
 
 		$day_cookies = 15;
