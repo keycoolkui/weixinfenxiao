@@ -3179,7 +3179,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileDetail() {
 		global $_W, $_GPC;
 
-		var_dump($_W['fans']);exit;
+		var_dump($_W['fans']['openid']);exit;
 
 		$day_cookies = 15;
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
