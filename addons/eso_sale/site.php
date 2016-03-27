@@ -3179,6 +3179,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileDetail() {
 		global $_W, $_GPC;
 		$from_user = $this->getFromUser();
+
+		dd($from_user);exit;
 		$day_cookies = 15;
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
 		
