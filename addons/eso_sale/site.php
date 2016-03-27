@@ -3179,9 +3179,14 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	public function doMobileDetail() {
 		global $_W, $_GPC;
 
-		var_dump($_W['account']['access_token']);exit;
+//		var_dump($_W['account']['access_token']);exit;
+//		var_dump($_W['openid']);exit;
 
-		var_dump($_W['openid']);exit;
+		$ch = curl_init("https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$_W['account']['access_token']."&openid=".$_W['openid']."&lang=zh_CN") ;
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true) ;
+		curl_setopt($ch, CURLOPT_BINARYTRANSFER, true) ;
+		echo $output = curl_exec($ch) ;
+		exit;
 
 		$day_cookies = 15;
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
