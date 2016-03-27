@@ -3178,9 +3178,8 @@ class Eso_SaleModuleSite extends WeModuleSite {
 	}
 	public function doMobileDetail() {
 		global $_W, $_GPC;
-		$from_user = $this->getFromUser();
 
-		var_dump($from_user);exit;
+
 		$day_cookies = 15;
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
 		
@@ -3189,6 +3188,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 		$gid = $_GPC['gid'];
 		$from_user =	$this->getFromUser();
 		$profile = pdo_fetch('SELECT * FROM '.tablename('eso_sale_member')." WHERE  uniacid = :uniacid  AND from_user = :from_user" , array(':uniacid' => $_W['uniacid'],':from_user' => $from_user));
+		var_dump($profile);exit;
 		$id = $profile['id'];
 		
 		if((($_GPC['mid']!=$_COOKIE[$shareid]) && !empty($_GPC['mid']))){
