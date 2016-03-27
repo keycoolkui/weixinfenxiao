@@ -3181,9 +3181,11 @@ class Eso_SaleModuleSite extends WeModuleSite {
 
 		load()->func('communication');
 		$response = ihttp_get("https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$this->get_weixin_token()."&openid=".$_W['openid']."&lang=zh_CN");
+		if(!is_error($response)) {
+			$userinfo = @json_decode($response['content'], true);
+			var_dump($userinfo);exit;
+		}
 
-		var_dump($response);
-		exit;
 
 		$day_cookies = 15;
 		$shareid = 'eso_sale_sid07'.$_W['uniacid'];
