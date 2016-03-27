@@ -3185,6 +3185,7 @@ class Eso_SaleModuleSite extends WeModuleSite {
 			$userinfo = @json_decode($response['content'], true);
 			if($userinfo['subscribe'] == 0 ){
 				include $this->template('detail_nofocus');
+				exit;
 			}
 		}
 
