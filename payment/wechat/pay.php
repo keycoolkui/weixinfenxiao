@@ -88,10 +88,10 @@ $row = pdo_fetch($sql, array(':acid' => $wechat['account']));
 $wechat['appid'] = $row['key'];
 $wechat['secret'] = $row['secret'];
 
-var_dump($params);
-echo '<br/>';
-var_dump($wechat);
-exit;
+//var_dump($params);
+//echo '<br/>';
+//var_dump($wechat);
+//exit;
 
 $wOpt = wechat_build($params, $wechat);
 if (is_error($wOpt)) {
