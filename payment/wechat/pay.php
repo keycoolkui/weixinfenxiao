@@ -94,6 +94,8 @@ $wechat['secret'] = $row['secret'];
 //exit;
 
 $wOpt = wechat_build($params, $wechat);
+var_dump($wOpt);exit;
+
 if (is_error($wOpt)) {
 	if ($wOpt['message'] == 'invalid out_trade_no' || $wOpt['message'] == 'OUT_TRADE_NO_USED') {
 		$id = date('YmdH');
