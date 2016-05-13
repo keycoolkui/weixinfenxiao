@@ -63,7 +63,7 @@
                         <tbody>
                         {loop $list $v}
                         <tr>
-                            <td>{if $v['agent']==0 }业务员 {else if $v['agent'] == 1}医生{else}普通用户{/if}</td>
+                            <td>{if $v['agent']==0 }经理 {else if $v['agent'] == 1}VIP{else}普通用户{/if}</td>
                             <td>
                                 {$v['realname']}
                             </td>
