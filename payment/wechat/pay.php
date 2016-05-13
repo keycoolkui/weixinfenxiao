@@ -88,6 +88,11 @@ $row = pdo_fetch($sql, array(':acid' => $wechat['account']));
 $wechat['appid'] = $row['key'];
 $wechat['secret'] = $row['secret'];
 
+var_dump($params);
+echo '<br/>';
+var_dump($wechat);
+exit;
+
 $wOpt = wechat_build($params, $wechat);
 if (is_error($wOpt)) {
 	if ($wOpt['message'] == 'invalid out_trade_no' || $wOpt['message'] == 'OUT_TRADE_NO_USED') {
